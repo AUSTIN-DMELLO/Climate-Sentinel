@@ -1,0 +1,3947 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2962b9f038bcd0cb9c0e87959561e1bb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2962b9f038bcd0cb9c0e87959561e1bb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2962b9f038bcd0cb9c0e87959561e1bb = L.map(
+                "map_2962b9f038bcd0cb9c0e87959561e1bb",
+                {
+                    center: [7.5586, 93.9093],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0effd06794fd698504d8f098fa730120 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0effd06794fd698504d8f098fa730120.addTo(map_2962b9f038bcd0cb9c0e87959561e1bb);
+        
+    
+            var marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30 = L.markerClusterGroup(
+                {}
+            );
+        
+    
+            var marker_906ca13763bc14e6060f537372bc9999 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_26c608991b6081b53c8678322150585d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_935a2e85b7f291ec153f3b6bade0ec0b = $(`<div id="html_935a2e85b7f291ec153f3b6bade0ec0b" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1240 ha</div>`)[0];
+                popup_26c608991b6081b53c8678322150585d.setContent(html_935a2e85b7f291ec153f3b6bade0ec0b);
+            
+        
+
+        marker_906ca13763bc14e6060f537372bc9999.bindPopup(popup_26c608991b6081b53c8678322150585d)
+        ;
+
+        
+    
+    
+            var marker_4369514aa3617f4a5cdc4fe4b0c31215 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b7bd356757ed80e2ce87b0b3c9b93ec7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_664e3466c73f2b1b0a6acadbe0d0bfc7 = $(`<div id="html_664e3466c73f2b1b0a6acadbe0d0bfc7" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1237 ha</div>`)[0];
+                popup_b7bd356757ed80e2ce87b0b3c9b93ec7.setContent(html_664e3466c73f2b1b0a6acadbe0d0bfc7);
+            
+        
+
+        marker_4369514aa3617f4a5cdc4fe4b0c31215.bindPopup(popup_b7bd356757ed80e2ce87b0b3c9b93ec7)
+        ;
+
+        
+    
+    
+            var marker_59126b99c6601d2709c52e3304ad53d6 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_276fa073bbdc292b285011c0df240146 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a555d3ee0b42aac11d9a08470e50216 = $(`<div id="html_8a555d3ee0b42aac11d9a08470e50216" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1236 ha</div>`)[0];
+                popup_276fa073bbdc292b285011c0df240146.setContent(html_8a555d3ee0b42aac11d9a08470e50216);
+            
+        
+
+        marker_59126b99c6601d2709c52e3304ad53d6.bindPopup(popup_276fa073bbdc292b285011c0df240146)
+        ;
+
+        
+    
+    
+            var marker_45558197cca01f2cbc2536907cebe9ca = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ff20e2fae0dadf071060719eedf747e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afb187a4ac68b3a58c38594437a37d82 = $(`<div id="html_afb187a4ac68b3a58c38594437a37d82" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1236 ha</div>`)[0];
+                popup_ff20e2fae0dadf071060719eedf747e9.setContent(html_afb187a4ac68b3a58c38594437a37d82);
+            
+        
+
+        marker_45558197cca01f2cbc2536907cebe9ca.bindPopup(popup_ff20e2fae0dadf071060719eedf747e9)
+        ;
+
+        
+    
+    
+            var marker_c0fc908168c0d4db9886060e67bba027 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_04a36ada725957382d8d0cf4d5f0e30a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b016cd4fc6a42d3b162f22cb7d163b3e = $(`<div id="html_b016cd4fc6a42d3b162f22cb7d163b3e" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1236 ha</div>`)[0];
+                popup_04a36ada725957382d8d0cf4d5f0e30a.setContent(html_b016cd4fc6a42d3b162f22cb7d163b3e);
+            
+        
+
+        marker_c0fc908168c0d4db9886060e67bba027.bindPopup(popup_04a36ada725957382d8d0cf4d5f0e30a)
+        ;
+
+        
+    
+    
+            var marker_ae292beb7ffde0186f0815a0b168a896 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_bd4e60a48e67d7813423655732ba7eee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49d0fa407247e689b3c30239d264f0fb = $(`<div id="html_49d0fa407247e689b3c30239d264f0fb" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1236 ha</div>`)[0];
+                popup_bd4e60a48e67d7813423655732ba7eee.setContent(html_49d0fa407247e689b3c30239d264f0fb);
+            
+        
+
+        marker_ae292beb7ffde0186f0815a0b168a896.bindPopup(popup_bd4e60a48e67d7813423655732ba7eee)
+        ;
+
+        
+    
+    
+            var marker_0ea10d01ebd71ca022fc7f1bff94cc29 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_98e813e82b47bd6a517b4f4729cedd56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d08cae0cacd49c6c0a17d1a20559de1c = $(`<div id="html_d08cae0cacd49c6c0a17d1a20559de1c" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1233 ha</div>`)[0];
+                popup_98e813e82b47bd6a517b4f4729cedd56.setContent(html_d08cae0cacd49c6c0a17d1a20559de1c);
+            
+        
+
+        marker_0ea10d01ebd71ca022fc7f1bff94cc29.bindPopup(popup_98e813e82b47bd6a517b4f4729cedd56)
+        ;
+
+        
+    
+    
+            var marker_960e7dfd60e349d0bbb33275772dea12 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d5e88e8b4e69aef3b6e8600502322319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cba0fa6e29ecd475d8f579aa6d922487 = $(`<div id="html_cba0fa6e29ecd475d8f579aa6d922487" style="width: 100.0%; height: 100.0%;">Year: 2001<br>Forest Loss: 1213 ha</div>`)[0];
+                popup_d5e88e8b4e69aef3b6e8600502322319.setContent(html_cba0fa6e29ecd475d8f579aa6d922487);
+            
+        
+
+        marker_960e7dfd60e349d0bbb33275772dea12.bindPopup(popup_d5e88e8b4e69aef3b6e8600502322319)
+        ;
+
+        
+    
+    
+            var marker_9b12fddea9fcefb2022ffaf21a690947 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a2f7a807c6dfe645dcfa636c5471d93d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75b7a154de9a31faad20d58342a1bcee = $(`<div id="html_75b7a154de9a31faad20d58342a1bcee" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1502 ha</div>`)[0];
+                popup_a2f7a807c6dfe645dcfa636c5471d93d.setContent(html_75b7a154de9a31faad20d58342a1bcee);
+            
+        
+
+        marker_9b12fddea9fcefb2022ffaf21a690947.bindPopup(popup_a2f7a807c6dfe645dcfa636c5471d93d)
+        ;
+
+        
+    
+    
+            var marker_2725b5d5393ab9140e0e1ded35b44a2c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_482364b6a09749f19576657d6b621bb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8285820e3273f3f945aabf6f868f1bd = $(`<div id="html_d8285820e3273f3f945aabf6f868f1bd" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1499 ha</div>`)[0];
+                popup_482364b6a09749f19576657d6b621bb0.setContent(html_d8285820e3273f3f945aabf6f868f1bd);
+            
+        
+
+        marker_2725b5d5393ab9140e0e1ded35b44a2c.bindPopup(popup_482364b6a09749f19576657d6b621bb0)
+        ;
+
+        
+    
+    
+            var marker_65eaf20e2a448990c4e62ee87c3c1da8 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_256027bd88e69b8a998349323115e257 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dfa5828560db31a9ecf2eceb89fb2b3 = $(`<div id="html_7dfa5828560db31a9ecf2eceb89fb2b3" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1499 ha</div>`)[0];
+                popup_256027bd88e69b8a998349323115e257.setContent(html_7dfa5828560db31a9ecf2eceb89fb2b3);
+            
+        
+
+        marker_65eaf20e2a448990c4e62ee87c3c1da8.bindPopup(popup_256027bd88e69b8a998349323115e257)
+        ;
+
+        
+    
+    
+            var marker_f708f3276a9855277c329f8f8262f900 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_48d3b49cf8a8e0b0bfcc797ad9ce2945 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df31b7232e2c28b800e9e1fb121e25e8 = $(`<div id="html_df31b7232e2c28b800e9e1fb121e25e8" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1499 ha</div>`)[0];
+                popup_48d3b49cf8a8e0b0bfcc797ad9ce2945.setContent(html_df31b7232e2c28b800e9e1fb121e25e8);
+            
+        
+
+        marker_f708f3276a9855277c329f8f8262f900.bindPopup(popup_48d3b49cf8a8e0b0bfcc797ad9ce2945)
+        ;
+
+        
+    
+    
+            var marker_d63ac5184a9a66056e6bcdc0fd7094a1 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_4ffe1776fd9d6d0167e2ea6c4ce12b39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ea65c6b795232f3d39f7627b0be65d8 = $(`<div id="html_3ea65c6b795232f3d39f7627b0be65d8" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1499 ha</div>`)[0];
+                popup_4ffe1776fd9d6d0167e2ea6c4ce12b39.setContent(html_3ea65c6b795232f3d39f7627b0be65d8);
+            
+        
+
+        marker_d63ac5184a9a66056e6bcdc0fd7094a1.bindPopup(popup_4ffe1776fd9d6d0167e2ea6c4ce12b39)
+        ;
+
+        
+    
+    
+            var marker_f6b35bd32c3d0910940446785ff23584 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b99ff07c24c88c3dde7a16115cfc121d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2614ff17464efd45e3788068e416e63e = $(`<div id="html_2614ff17464efd45e3788068e416e63e" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1499 ha</div>`)[0];
+                popup_b99ff07c24c88c3dde7a16115cfc121d.setContent(html_2614ff17464efd45e3788068e416e63e);
+            
+        
+
+        marker_f6b35bd32c3d0910940446785ff23584.bindPopup(popup_b99ff07c24c88c3dde7a16115cfc121d)
+        ;
+
+        
+    
+    
+            var marker_54ad6d5e2b3b727163855a8993c21913 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_2ce312ec8fd66c8a422c31384eff1542 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa0a684c07ae61658324d111c0dffe13 = $(`<div id="html_aa0a684c07ae61658324d111c0dffe13" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1498 ha</div>`)[0];
+                popup_2ce312ec8fd66c8a422c31384eff1542.setContent(html_aa0a684c07ae61658324d111c0dffe13);
+            
+        
+
+        marker_54ad6d5e2b3b727163855a8993c21913.bindPopup(popup_2ce312ec8fd66c8a422c31384eff1542)
+        ;
+
+        
+    
+    
+            var marker_ee0885021db479f52a7439bc4f41225a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_08afb5dd749841eef17b1967217d689e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c70a27fdebd3ceb95b0c65653956c7ab = $(`<div id="html_c70a27fdebd3ceb95b0c65653956c7ab" style="width: 100.0%; height: 100.0%;">Year: 2002<br>Forest Loss: 1492 ha</div>`)[0];
+                popup_08afb5dd749841eef17b1967217d689e.setContent(html_c70a27fdebd3ceb95b0c65653956c7ab);
+            
+        
+
+        marker_ee0885021db479f52a7439bc4f41225a.bindPopup(popup_08afb5dd749841eef17b1967217d689e)
+        ;
+
+        
+    
+    
+            var marker_cf012f90ef2c5eed790e44d4fea95c29 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_692673999015d4cdac834ff3e17a4027 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b3ab47f7199b448dfa806dd8103ad55 = $(`<div id="html_3b3ab47f7199b448dfa806dd8103ad55" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1409 ha</div>`)[0];
+                popup_692673999015d4cdac834ff3e17a4027.setContent(html_3b3ab47f7199b448dfa806dd8103ad55);
+            
+        
+
+        marker_cf012f90ef2c5eed790e44d4fea95c29.bindPopup(popup_692673999015d4cdac834ff3e17a4027)
+        ;
+
+        
+    
+    
+            var marker_f871cdbf33a84ff78a3071e60cbb47fb = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9de1053a4c15b96b5373ce100df707d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_233cd299770453b7f96d8d1109cffb56 = $(`<div id="html_233cd299770453b7f96d8d1109cffb56" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1394 ha</div>`)[0];
+                popup_9de1053a4c15b96b5373ce100df707d6.setContent(html_233cd299770453b7f96d8d1109cffb56);
+            
+        
+
+        marker_f871cdbf33a84ff78a3071e60cbb47fb.bindPopup(popup_9de1053a4c15b96b5373ce100df707d6)
+        ;
+
+        
+    
+    
+            var marker_1b6b22b8f384e760c407b91336cf3d55 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0abe29d776f11cd5fcea27fe7de0ff19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bfce718431bae1318dac5ffc1d039e9 = $(`<div id="html_2bfce718431bae1318dac5ffc1d039e9" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1394 ha</div>`)[0];
+                popup_0abe29d776f11cd5fcea27fe7de0ff19.setContent(html_2bfce718431bae1318dac5ffc1d039e9);
+            
+        
+
+        marker_1b6b22b8f384e760c407b91336cf3d55.bindPopup(popup_0abe29d776f11cd5fcea27fe7de0ff19)
+        ;
+
+        
+    
+    
+            var marker_db65b31c9b2f469bb0015a4ba4d9aa7a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_70391fd39c6a8951a4af15ec87862b57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68c35251ad298b6f495e60c18aa0ee4b = $(`<div id="html_68c35251ad298b6f495e60c18aa0ee4b" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1393 ha</div>`)[0];
+                popup_70391fd39c6a8951a4af15ec87862b57.setContent(html_68c35251ad298b6f495e60c18aa0ee4b);
+            
+        
+
+        marker_db65b31c9b2f469bb0015a4ba4d9aa7a.bindPopup(popup_70391fd39c6a8951a4af15ec87862b57)
+        ;
+
+        
+    
+    
+            var marker_cdfe784f1fa050736b2ac40045cb7a1f = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_c86bda7cc7d9823dd4182b71335e1b8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_038f2ab12f664d47afd83211b4f3704a = $(`<div id="html_038f2ab12f664d47afd83211b4f3704a" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1392 ha</div>`)[0];
+                popup_c86bda7cc7d9823dd4182b71335e1b8e.setContent(html_038f2ab12f664d47afd83211b4f3704a);
+            
+        
+
+        marker_cdfe784f1fa050736b2ac40045cb7a1f.bindPopup(popup_c86bda7cc7d9823dd4182b71335e1b8e)
+        ;
+
+        
+    
+    
+            var marker_563334685dead1d22ba8ab162882b04b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_c3eb0b98fbfe70961282982e8f6dddf9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0609d508d9604d28de9f4d26377f09a1 = $(`<div id="html_0609d508d9604d28de9f4d26377f09a1" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1391 ha</div>`)[0];
+                popup_c3eb0b98fbfe70961282982e8f6dddf9.setContent(html_0609d508d9604d28de9f4d26377f09a1);
+            
+        
+
+        marker_563334685dead1d22ba8ab162882b04b.bindPopup(popup_c3eb0b98fbfe70961282982e8f6dddf9)
+        ;
+
+        
+    
+    
+            var marker_d0b37be2aaaeb05967398659a6610571 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_de4e79d3520e9b4a703a25a4c8d066c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_101f0c1e3f7b940de7d9a1b4906c214d = $(`<div id="html_101f0c1e3f7b940de7d9a1b4906c214d" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1389 ha</div>`)[0];
+                popup_de4e79d3520e9b4a703a25a4c8d066c8.setContent(html_101f0c1e3f7b940de7d9a1b4906c214d);
+            
+        
+
+        marker_d0b37be2aaaeb05967398659a6610571.bindPopup(popup_de4e79d3520e9b4a703a25a4c8d066c8)
+        ;
+
+        
+    
+    
+            var marker_67e0491c61846f8a5195b731ab36bb91 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b6b6652e5bb89858569d7b692d244f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55781951f68f97a8941fd3d8cfacd720 = $(`<div id="html_55781951f68f97a8941fd3d8cfacd720" style="width: 100.0%; height: 100.0%;">Year: 2003<br>Forest Loss: 1365 ha</div>`)[0];
+                popup_b6b6652e5bb89858569d7b692d244f81.setContent(html_55781951f68f97a8941fd3d8cfacd720);
+            
+        
+
+        marker_67e0491c61846f8a5195b731ab36bb91.bindPopup(popup_b6b6652e5bb89858569d7b692d244f81)
+        ;
+
+        
+    
+    
+            var marker_a2d5584da0f1131a98cc474389564354 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_994a6ea18b0131a8c6bce8af0ec5cb0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63f9be276d7ffde030419072d0732be8 = $(`<div id="html_63f9be276d7ffde030419072d0732be8" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 67 ha</div>`)[0];
+                popup_994a6ea18b0131a8c6bce8af0ec5cb0a.setContent(html_63f9be276d7ffde030419072d0732be8);
+            
+        
+
+        marker_a2d5584da0f1131a98cc474389564354.bindPopup(popup_994a6ea18b0131a8c6bce8af0ec5cb0a)
+        ;
+
+        
+    
+    
+            var marker_d1ccf6d07b428cf4d66eda57ae2e899a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_29973955f1cedb736cb3a8498acb0d62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00990ea0de26369cb1a2f1f545c995a0 = $(`<div id="html_00990ea0de26369cb1a2f1f545c995a0" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 66 ha</div>`)[0];
+                popup_29973955f1cedb736cb3a8498acb0d62.setContent(html_00990ea0de26369cb1a2f1f545c995a0);
+            
+        
+
+        marker_d1ccf6d07b428cf4d66eda57ae2e899a.bindPopup(popup_29973955f1cedb736cb3a8498acb0d62)
+        ;
+
+        
+    
+    
+            var marker_d615088f8dfcb56cb0ca7b1c25d1846d = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ae2d5dbc04b66b796dcaf3cbbe5efead = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ffc8f3ed09872a714dfa2d587ab62c4 = $(`<div id="html_7ffc8f3ed09872a714dfa2d587ab62c4" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 66 ha</div>`)[0];
+                popup_ae2d5dbc04b66b796dcaf3cbbe5efead.setContent(html_7ffc8f3ed09872a714dfa2d587ab62c4);
+            
+        
+
+        marker_d615088f8dfcb56cb0ca7b1c25d1846d.bindPopup(popup_ae2d5dbc04b66b796dcaf3cbbe5efead)
+        ;
+
+        
+    
+    
+            var marker_be58507ff87ac5ce08d5f130746f1265 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_799d34ac08a9077cf38dc1e030df995d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17f887984ffad1511993498e4899085d = $(`<div id="html_17f887984ffad1511993498e4899085d" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 66 ha</div>`)[0];
+                popup_799d34ac08a9077cf38dc1e030df995d.setContent(html_17f887984ffad1511993498e4899085d);
+            
+        
+
+        marker_be58507ff87ac5ce08d5f130746f1265.bindPopup(popup_799d34ac08a9077cf38dc1e030df995d)
+        ;
+
+        
+    
+    
+            var marker_3dc1c837d5866a51b663d4e960225236 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_dea06da95449b24be47c3128af797bfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41193db28820ef04cd19647e61414ca4 = $(`<div id="html_41193db28820ef04cd19647e61414ca4" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 66 ha</div>`)[0];
+                popup_dea06da95449b24be47c3128af797bfb.setContent(html_41193db28820ef04cd19647e61414ca4);
+            
+        
+
+        marker_3dc1c837d5866a51b663d4e960225236.bindPopup(popup_dea06da95449b24be47c3128af797bfb)
+        ;
+
+        
+    
+    
+            var marker_bace147e73670ab46dbeba83b2fd32c8 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_cdcdc910106ae01c1db05bfd028da5e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea260131453ec1290a2bbee91c59c08c = $(`<div id="html_ea260131453ec1290a2bbee91c59c08c" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 66 ha</div>`)[0];
+                popup_cdcdc910106ae01c1db05bfd028da5e3.setContent(html_ea260131453ec1290a2bbee91c59c08c);
+            
+        
+
+        marker_bace147e73670ab46dbeba83b2fd32c8.bindPopup(popup_cdcdc910106ae01c1db05bfd028da5e3)
+        ;
+
+        
+    
+    
+            var marker_f7c9bf8d3650835013138dd8035f1340 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_28cf276c692a90faad1b33ce6133e18e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4a11408372541463b1260a0905dd489 = $(`<div id="html_d4a11408372541463b1260a0905dd489" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 65 ha</div>`)[0];
+                popup_28cf276c692a90faad1b33ce6133e18e.setContent(html_d4a11408372541463b1260a0905dd489);
+            
+        
+
+        marker_f7c9bf8d3650835013138dd8035f1340.bindPopup(popup_28cf276c692a90faad1b33ce6133e18e)
+        ;
+
+        
+    
+    
+            var marker_4bfe1a20d4e766dc7fca3ffcdda9aa6f = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_701ec463d5ef87fceb05259b922773ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f52deacce250abc21c17a55051333da6 = $(`<div id="html_f52deacce250abc21c17a55051333da6" style="width: 100.0%; height: 100.0%;">Year: 2004<br>Forest Loss: 62 ha</div>`)[0];
+                popup_701ec463d5ef87fceb05259b922773ba.setContent(html_f52deacce250abc21c17a55051333da6);
+            
+        
+
+        marker_4bfe1a20d4e766dc7fca3ffcdda9aa6f.bindPopup(popup_701ec463d5ef87fceb05259b922773ba)
+        ;
+
+        
+    
+    
+            var marker_3a845867a54569297834f711ab917152 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ed87788ff863aa5cb3046be4b305fe1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cbcedd13bf0c1b29e0ce664550e89c3 = $(`<div id="html_1cbcedd13bf0c1b29e0ce664550e89c3" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2301 ha</div>`)[0];
+                popup_ed87788ff863aa5cb3046be4b305fe1b.setContent(html_1cbcedd13bf0c1b29e0ce664550e89c3);
+            
+        
+
+        marker_3a845867a54569297834f711ab917152.bindPopup(popup_ed87788ff863aa5cb3046be4b305fe1b)
+        ;
+
+        
+    
+    
+            var marker_6a831c9ed825cc290ea4cd70394cdd31 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a333f56c8801e56bbf5d45ecf3dce549 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_232207d51fa4418d59551fc60370dcd0 = $(`<div id="html_232207d51fa4418d59551fc60370dcd0" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2284 ha</div>`)[0];
+                popup_a333f56c8801e56bbf5d45ecf3dce549.setContent(html_232207d51fa4418d59551fc60370dcd0);
+            
+        
+
+        marker_6a831c9ed825cc290ea4cd70394cdd31.bindPopup(popup_a333f56c8801e56bbf5d45ecf3dce549)
+        ;
+
+        
+    
+    
+            var marker_694268ac2835b70df1c3463d8187bdce = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_af8bb385542052509c317a511e24c04a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2c3d36c0e4aebabd04aa7fe34bcaa7f = $(`<div id="html_a2c3d36c0e4aebabd04aa7fe34bcaa7f" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2283 ha</div>`)[0];
+                popup_af8bb385542052509c317a511e24c04a.setContent(html_a2c3d36c0e4aebabd04aa7fe34bcaa7f);
+            
+        
+
+        marker_694268ac2835b70df1c3463d8187bdce.bindPopup(popup_af8bb385542052509c317a511e24c04a)
+        ;
+
+        
+    
+    
+            var marker_1e439856db8209e0b73e7b2088b0cc65 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_385fdceae8427dcb64138e1c87a4a188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f48cb2f884d55ed5f35e22d70c69a54 = $(`<div id="html_9f48cb2f884d55ed5f35e22d70c69a54" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2283 ha</div>`)[0];
+                popup_385fdceae8427dcb64138e1c87a4a188.setContent(html_9f48cb2f884d55ed5f35e22d70c69a54);
+            
+        
+
+        marker_1e439856db8209e0b73e7b2088b0cc65.bindPopup(popup_385fdceae8427dcb64138e1c87a4a188)
+        ;
+
+        
+    
+    
+            var marker_6c550b61bae1b440358bb1fbda07bb93 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d9ea24d73d379f15a7b2ded121535be0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2aca6011a05f62209325b4c897f413c8 = $(`<div id="html_2aca6011a05f62209325b4c897f413c8" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2282 ha</div>`)[0];
+                popup_d9ea24d73d379f15a7b2ded121535be0.setContent(html_2aca6011a05f62209325b4c897f413c8);
+            
+        
+
+        marker_6c550b61bae1b440358bb1fbda07bb93.bindPopup(popup_d9ea24d73d379f15a7b2ded121535be0)
+        ;
+
+        
+    
+    
+            var marker_c1618856ad16a94236f90cc7d7139ebd = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_fd70a27490025888a50e2db1abdd043a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55104b058dce545a41be6fe2a9c276df = $(`<div id="html_55104b058dce545a41be6fe2a9c276df" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2281 ha</div>`)[0];
+                popup_fd70a27490025888a50e2db1abdd043a.setContent(html_55104b058dce545a41be6fe2a9c276df);
+            
+        
+
+        marker_c1618856ad16a94236f90cc7d7139ebd.bindPopup(popup_fd70a27490025888a50e2db1abdd043a)
+        ;
+
+        
+    
+    
+            var marker_68cfe4974b7aa97d7faee53101fdc139 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_8e89e1ffaa3722b47c72f14660038e68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d5415228bd4233de18772c7105f24d3 = $(`<div id="html_1d5415228bd4233de18772c7105f24d3" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2272 ha</div>`)[0];
+                popup_8e89e1ffaa3722b47c72f14660038e68.setContent(html_1d5415228bd4233de18772c7105f24d3);
+            
+        
+
+        marker_68cfe4974b7aa97d7faee53101fdc139.bindPopup(popup_8e89e1ffaa3722b47c72f14660038e68)
+        ;
+
+        
+    
+    
+            var marker_a34e960c3192ad2a47beec4e77b452da = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9a0cf766ca722b6a80223c96bbf97672 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40c7c4bab6c9232ca00d7a1e4f30efd2 = $(`<div id="html_40c7c4bab6c9232ca00d7a1e4f30efd2" style="width: 100.0%; height: 100.0%;">Year: 2005<br>Forest Loss: 2206 ha</div>`)[0];
+                popup_9a0cf766ca722b6a80223c96bbf97672.setContent(html_40c7c4bab6c9232ca00d7a1e4f30efd2);
+            
+        
+
+        marker_a34e960c3192ad2a47beec4e77b452da.bindPopup(popup_9a0cf766ca722b6a80223c96bbf97672)
+        ;
+
+        
+    
+    
+            var marker_bfd926de063cf5f91bdd793e05bc8a1c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_57c0dbf77197d72b48e7fee8d84b7bb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf1aebe6c04163df432be4ee9b37f6bb = $(`<div id="html_bf1aebe6c04163df432be4ee9b37f6bb" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 242 ha</div>`)[0];
+                popup_57c0dbf77197d72b48e7fee8d84b7bb8.setContent(html_bf1aebe6c04163df432be4ee9b37f6bb);
+            
+        
+
+        marker_bfd926de063cf5f91bdd793e05bc8a1c.bindPopup(popup_57c0dbf77197d72b48e7fee8d84b7bb8)
+        ;
+
+        
+    
+    
+            var marker_182646e803d79585503b3cc7eff41129 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_e1c96a8082fee02c2f3c6136f0a13952 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2456589cdaf16a8743959eed1a9071bf = $(`<div id="html_2456589cdaf16a8743959eed1a9071bf" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 228 ha</div>`)[0];
+                popup_e1c96a8082fee02c2f3c6136f0a13952.setContent(html_2456589cdaf16a8743959eed1a9071bf);
+            
+        
+
+        marker_182646e803d79585503b3cc7eff41129.bindPopup(popup_e1c96a8082fee02c2f3c6136f0a13952)
+        ;
+
+        
+    
+    
+            var marker_bda91d896fb02fcd8f1914e4a31acd8d = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_e860cf6645551f29a56a7b95314c4073 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a208a02885029d3b047f66502ee8e333 = $(`<div id="html_a208a02885029d3b047f66502ee8e333" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 228 ha</div>`)[0];
+                popup_e860cf6645551f29a56a7b95314c4073.setContent(html_a208a02885029d3b047f66502ee8e333);
+            
+        
+
+        marker_bda91d896fb02fcd8f1914e4a31acd8d.bindPopup(popup_e860cf6645551f29a56a7b95314c4073)
+        ;
+
+        
+    
+    
+            var marker_cf0cc7217b5a26c4b40c530c56dfbfbf = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_7fc7c3436b3f83e6562bd5ef8eb4821b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_791a332a8f4639fab09c74d37e349b58 = $(`<div id="html_791a332a8f4639fab09c74d37e349b58" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 228 ha</div>`)[0];
+                popup_7fc7c3436b3f83e6562bd5ef8eb4821b.setContent(html_791a332a8f4639fab09c74d37e349b58);
+            
+        
+
+        marker_cf0cc7217b5a26c4b40c530c56dfbfbf.bindPopup(popup_7fc7c3436b3f83e6562bd5ef8eb4821b)
+        ;
+
+        
+    
+    
+            var marker_7608f75313932f099850cee61aa319d0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d587455cf72c70799f10ec981f6fc585 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_359dd8f004efea54c12c2b9a7ccc6369 = $(`<div id="html_359dd8f004efea54c12c2b9a7ccc6369" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 228 ha</div>`)[0];
+                popup_d587455cf72c70799f10ec981f6fc585.setContent(html_359dd8f004efea54c12c2b9a7ccc6369);
+            
+        
+
+        marker_7608f75313932f099850cee61aa319d0.bindPopup(popup_d587455cf72c70799f10ec981f6fc585)
+        ;
+
+        
+    
+    
+            var marker_dc2884cac9723b9abfdca571729f7640 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_1aa3dad3d2266c6a1aa283f63db716b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc29a8be31c0449989ba0796d32b4ad4 = $(`<div id="html_cc29a8be31c0449989ba0796d32b4ad4" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 228 ha</div>`)[0];
+                popup_1aa3dad3d2266c6a1aa283f63db716b6.setContent(html_cc29a8be31c0449989ba0796d32b4ad4);
+            
+        
+
+        marker_dc2884cac9723b9abfdca571729f7640.bindPopup(popup_1aa3dad3d2266c6a1aa283f63db716b6)
+        ;
+
+        
+    
+    
+            var marker_93e06f360a82987cd0dddb030a3a79c0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_8cf7c4d25493e0dfac906234b2b4a045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a00ee62062aeec89b3cf55b573548f29 = $(`<div id="html_a00ee62062aeec89b3cf55b573548f29" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 227 ha</div>`)[0];
+                popup_8cf7c4d25493e0dfac906234b2b4a045.setContent(html_a00ee62062aeec89b3cf55b573548f29);
+            
+        
+
+        marker_93e06f360a82987cd0dddb030a3a79c0.bindPopup(popup_8cf7c4d25493e0dfac906234b2b4a045)
+        ;
+
+        
+    
+    
+            var marker_adf7d449392e9461d1a1b387ca942f72 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d5710b0c2625362de8f571819c2cd980 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea78d71b664366b99459da85828e0108 = $(`<div id="html_ea78d71b664366b99459da85828e0108" style="width: 100.0%; height: 100.0%;">Year: 2006<br>Forest Loss: 224 ha</div>`)[0];
+                popup_d5710b0c2625362de8f571819c2cd980.setContent(html_ea78d71b664366b99459da85828e0108);
+            
+        
+
+        marker_adf7d449392e9461d1a1b387ca942f72.bindPopup(popup_d5710b0c2625362de8f571819c2cd980)
+        ;
+
+        
+    
+    
+            var marker_e625e8dfc9d0e37ab69f7dfcb4163e84 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b12eb4a695555e3c458b642afb6de6db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f0449e2fc54f1c62f285c5270e2024b = $(`<div id="html_6f0449e2fc54f1c62f285c5270e2024b" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 75 ha</div>`)[0];
+                popup_b12eb4a695555e3c458b642afb6de6db.setContent(html_6f0449e2fc54f1c62f285c5270e2024b);
+            
+        
+
+        marker_e625e8dfc9d0e37ab69f7dfcb4163e84.bindPopup(popup_b12eb4a695555e3c458b642afb6de6db)
+        ;
+
+        
+    
+    
+            var marker_49445d7d2a764e5ddcdd7e53966af9d6 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_8e2fcfb8a4f93236c83adde81a23031b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c967bad4611b359c41bf480705de1fd = $(`<div id="html_2c967bad4611b359c41bf480705de1fd" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 74 ha</div>`)[0];
+                popup_8e2fcfb8a4f93236c83adde81a23031b.setContent(html_2c967bad4611b359c41bf480705de1fd);
+            
+        
+
+        marker_49445d7d2a764e5ddcdd7e53966af9d6.bindPopup(popup_8e2fcfb8a4f93236c83adde81a23031b)
+        ;
+
+        
+    
+    
+            var marker_72ddf8e03d2c531c39a1515d07599564 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_bf252e1f513992034bf3e1817f97fa39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63c44b9d5b0f08631747598d94e1800e = $(`<div id="html_63c44b9d5b0f08631747598d94e1800e" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 74 ha</div>`)[0];
+                popup_bf252e1f513992034bf3e1817f97fa39.setContent(html_63c44b9d5b0f08631747598d94e1800e);
+            
+        
+
+        marker_72ddf8e03d2c531c39a1515d07599564.bindPopup(popup_bf252e1f513992034bf3e1817f97fa39)
+        ;
+
+        
+    
+    
+            var marker_7bf086f77f30bc11a5c812ba174016e3 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_91b5cf86cc49ac69742e12cf11a92b82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f7c8183269c9917d648d516a896f22a = $(`<div id="html_1f7c8183269c9917d648d516a896f22a" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 74 ha</div>`)[0];
+                popup_91b5cf86cc49ac69742e12cf11a92b82.setContent(html_1f7c8183269c9917d648d516a896f22a);
+            
+        
+
+        marker_7bf086f77f30bc11a5c812ba174016e3.bindPopup(popup_91b5cf86cc49ac69742e12cf11a92b82)
+        ;
+
+        
+    
+    
+            var marker_f590c9f1c9586de9f15f42e343b83ed9 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b091ef1e68a6a7a5eb6d5dfbe2656f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_58e14852f73ce73d25c17ff91a18846b = $(`<div id="html_58e14852f73ce73d25c17ff91a18846b" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 74 ha</div>`)[0];
+                popup_b091ef1e68a6a7a5eb6d5dfbe2656f10.setContent(html_58e14852f73ce73d25c17ff91a18846b);
+            
+        
+
+        marker_f590c9f1c9586de9f15f42e343b83ed9.bindPopup(popup_b091ef1e68a6a7a5eb6d5dfbe2656f10)
+        ;
+
+        
+    
+    
+            var marker_8f4bb9a43c36a3c75fd94dbc24c5c4a3 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_349201a5fa77a97e772a0c3711eed782 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d4a247446d8bbdaa7aed7cfcba8d98 = $(`<div id="html_c4d4a247446d8bbdaa7aed7cfcba8d98" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 74 ha</div>`)[0];
+                popup_349201a5fa77a97e772a0c3711eed782.setContent(html_c4d4a247446d8bbdaa7aed7cfcba8d98);
+            
+        
+
+        marker_8f4bb9a43c36a3c75fd94dbc24c5c4a3.bindPopup(popup_349201a5fa77a97e772a0c3711eed782)
+        ;
+
+        
+    
+    
+            var marker_bdd6583121e2bc51778e16b8e74626f4 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0642236c7d53259b1d7a190cd32d4819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91ea564078daf72b2ee9f4eee3c3167a = $(`<div id="html_91ea564078daf72b2ee9f4eee3c3167a" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 74 ha</div>`)[0];
+                popup_0642236c7d53259b1d7a190cd32d4819.setContent(html_91ea564078daf72b2ee9f4eee3c3167a);
+            
+        
+
+        marker_bdd6583121e2bc51778e16b8e74626f4.bindPopup(popup_0642236c7d53259b1d7a190cd32d4819)
+        ;
+
+        
+    
+    
+            var marker_f6487a09a4d01b882bfb7731415d8f82 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_8c494a77e400371685eeba4dedd4a6a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_535305b2a35bfa300bc5b83ca16ff100 = $(`<div id="html_535305b2a35bfa300bc5b83ca16ff100" style="width: 100.0%; height: 100.0%;">Year: 2007<br>Forest Loss: 71 ha</div>`)[0];
+                popup_8c494a77e400371685eeba4dedd4a6a3.setContent(html_535305b2a35bfa300bc5b83ca16ff100);
+            
+        
+
+        marker_f6487a09a4d01b882bfb7731415d8f82.bindPopup(popup_8c494a77e400371685eeba4dedd4a6a3)
+        ;
+
+        
+    
+    
+            var marker_53120d198ab071f997b67e298f83ca3b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_f33202479942cb855abca524cd84b7d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf8ae51c3b44e4474c1704bd3884eb70 = $(`<div id="html_bf8ae51c3b44e4474c1704bd3884eb70" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 162 ha</div>`)[0];
+                popup_f33202479942cb855abca524cd84b7d8.setContent(html_bf8ae51c3b44e4474c1704bd3884eb70);
+            
+        
+
+        marker_53120d198ab071f997b67e298f83ca3b.bindPopup(popup_f33202479942cb855abca524cd84b7d8)
+        ;
+
+        
+    
+    
+            var marker_5c235525c7717692d8b090b5b32591e3 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_bfa8e16b85cfd805d0287eede19ba147 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d426a13ca2ea801da44788c2de817ba = $(`<div id="html_0d426a13ca2ea801da44788c2de817ba" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 162 ha</div>`)[0];
+                popup_bfa8e16b85cfd805d0287eede19ba147.setContent(html_0d426a13ca2ea801da44788c2de817ba);
+            
+        
+
+        marker_5c235525c7717692d8b090b5b32591e3.bindPopup(popup_bfa8e16b85cfd805d0287eede19ba147)
+        ;
+
+        
+    
+    
+            var marker_ab72027501e8471a7909fae51258417d = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_dbc24d0ab413feb17455eed239fca082 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_038b1c5ce00b087afb04b01859ecadf0 = $(`<div id="html_038b1c5ce00b087afb04b01859ecadf0" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 161 ha</div>`)[0];
+                popup_dbc24d0ab413feb17455eed239fca082.setContent(html_038b1c5ce00b087afb04b01859ecadf0);
+            
+        
+
+        marker_ab72027501e8471a7909fae51258417d.bindPopup(popup_dbc24d0ab413feb17455eed239fca082)
+        ;
+
+        
+    
+    
+            var marker_8c27bb9fec65b3a949aacee9ae988d4b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_48ff5a31b9206d0c933b728124ceda4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_749eab4f7d3902eb2e320f5d9329074e = $(`<div id="html_749eab4f7d3902eb2e320f5d9329074e" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 161 ha</div>`)[0];
+                popup_48ff5a31b9206d0c933b728124ceda4b.setContent(html_749eab4f7d3902eb2e320f5d9329074e);
+            
+        
+
+        marker_8c27bb9fec65b3a949aacee9ae988d4b.bindPopup(popup_48ff5a31b9206d0c933b728124ceda4b)
+        ;
+
+        
+    
+    
+            var marker_c46040a69a0b8c0bdc8e4259843ee989 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_33a429a1537fce802fec3c9b8203b295 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04400ad0720e74d8e16865a5537e477e = $(`<div id="html_04400ad0720e74d8e16865a5537e477e" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 161 ha</div>`)[0];
+                popup_33a429a1537fce802fec3c9b8203b295.setContent(html_04400ad0720e74d8e16865a5537e477e);
+            
+        
+
+        marker_c46040a69a0b8c0bdc8e4259843ee989.bindPopup(popup_33a429a1537fce802fec3c9b8203b295)
+        ;
+
+        
+    
+    
+            var marker_c6d124661ef51c3d48238e9226b44e91 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_256d0c1a21dce6e7a7d8caf70b137ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01b8bd5881f235c3ef5f357a0df0d38f = $(`<div id="html_01b8bd5881f235c3ef5f357a0df0d38f" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 161 ha</div>`)[0];
+                popup_256d0c1a21dce6e7a7d8caf70b137ae7.setContent(html_01b8bd5881f235c3ef5f357a0df0d38f);
+            
+        
+
+        marker_c6d124661ef51c3d48238e9226b44e91.bindPopup(popup_256d0c1a21dce6e7a7d8caf70b137ae7)
+        ;
+
+        
+    
+    
+            var marker_15a94b7ae8e2f3c0c4d7a2dae5e0bb94 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_53a3ec4fa8a1a99fa2c6aeacf00a7320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52a685516bc9a270079bd0dc90aa6fd5 = $(`<div id="html_52a685516bc9a270079bd0dc90aa6fd5" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 160 ha</div>`)[0];
+                popup_53a3ec4fa8a1a99fa2c6aeacf00a7320.setContent(html_52a685516bc9a270079bd0dc90aa6fd5);
+            
+        
+
+        marker_15a94b7ae8e2f3c0c4d7a2dae5e0bb94.bindPopup(popup_53a3ec4fa8a1a99fa2c6aeacf00a7320)
+        ;
+
+        
+    
+    
+            var marker_9627c5f771191611929ee60be6daf8b0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_77ee01557a024f38bbb95ffa5f2a20d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40eac8dc7eff05a90e90ba8d092ac096 = $(`<div id="html_40eac8dc7eff05a90e90ba8d092ac096" style="width: 100.0%; height: 100.0%;">Year: 2008<br>Forest Loss: 152 ha</div>`)[0];
+                popup_77ee01557a024f38bbb95ffa5f2a20d8.setContent(html_40eac8dc7eff05a90e90ba8d092ac096);
+            
+        
+
+        marker_9627c5f771191611929ee60be6daf8b0.bindPopup(popup_77ee01557a024f38bbb95ffa5f2a20d8)
+        ;
+
+        
+    
+    
+            var marker_1a796b1667790a2942092e8f8b344953 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_da2e6b7d80ae27f00a93d03a93042d50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c72f4c66e841ff918b970abbffb14a24 = $(`<div id="html_c72f4c66e841ff918b970abbffb14a24" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 327 ha</div>`)[0];
+                popup_da2e6b7d80ae27f00a93d03a93042d50.setContent(html_c72f4c66e841ff918b970abbffb14a24);
+            
+        
+
+        marker_1a796b1667790a2942092e8f8b344953.bindPopup(popup_da2e6b7d80ae27f00a93d03a93042d50)
+        ;
+
+        
+    
+    
+            var marker_5e750a5bdb0fa62b8479354a8a5541bc = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_06ed653f3c152a4d1e0162cc1988f692 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e541ed23c8984a6186b3a824dff92dcf = $(`<div id="html_e541ed23c8984a6186b3a824dff92dcf" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 325 ha</div>`)[0];
+                popup_06ed653f3c152a4d1e0162cc1988f692.setContent(html_e541ed23c8984a6186b3a824dff92dcf);
+            
+        
+
+        marker_5e750a5bdb0fa62b8479354a8a5541bc.bindPopup(popup_06ed653f3c152a4d1e0162cc1988f692)
+        ;
+
+        
+    
+    
+            var marker_439fdcad1a738f9754c839ab5d90d13b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_7ade9ba9ee8f77dd5f39ec5b3a678be2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9012e79bed375f0bfcd7794dbb94c64f = $(`<div id="html_9012e79bed375f0bfcd7794dbb94c64f" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 325 ha</div>`)[0];
+                popup_7ade9ba9ee8f77dd5f39ec5b3a678be2.setContent(html_9012e79bed375f0bfcd7794dbb94c64f);
+            
+        
+
+        marker_439fdcad1a738f9754c839ab5d90d13b.bindPopup(popup_7ade9ba9ee8f77dd5f39ec5b3a678be2)
+        ;
+
+        
+    
+    
+            var marker_96ebce57abaf6b372cc751404a021999 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_7e9b0fe01bb581305b929d8e87589c58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9da60c960cd846fecf27e74947e6ff4c = $(`<div id="html_9da60c960cd846fecf27e74947e6ff4c" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 325 ha</div>`)[0];
+                popup_7e9b0fe01bb581305b929d8e87589c58.setContent(html_9da60c960cd846fecf27e74947e6ff4c);
+            
+        
+
+        marker_96ebce57abaf6b372cc751404a021999.bindPopup(popup_7e9b0fe01bb581305b929d8e87589c58)
+        ;
+
+        
+    
+    
+            var marker_f134d92d4ea7287217d9ea1ff02e1fb2 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_dcdbebf0d4f7de4cbdac3a39853dbcc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de243a7904f666161c321ee34fff4da0 = $(`<div id="html_de243a7904f666161c321ee34fff4da0" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 325 ha</div>`)[0];
+                popup_dcdbebf0d4f7de4cbdac3a39853dbcc2.setContent(html_de243a7904f666161c321ee34fff4da0);
+            
+        
+
+        marker_f134d92d4ea7287217d9ea1ff02e1fb2.bindPopup(popup_dcdbebf0d4f7de4cbdac3a39853dbcc2)
+        ;
+
+        
+    
+    
+            var marker_111514247d1b675da454eb462d913485 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ed638a4fab66fd180137630bee07d942 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12d327b36477cc214d96ce053ed62b96 = $(`<div id="html_12d327b36477cc214d96ce053ed62b96" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 325 ha</div>`)[0];
+                popup_ed638a4fab66fd180137630bee07d942.setContent(html_12d327b36477cc214d96ce053ed62b96);
+            
+        
+
+        marker_111514247d1b675da454eb462d913485.bindPopup(popup_ed638a4fab66fd180137630bee07d942)
+        ;
+
+        
+    
+    
+            var marker_8e3238d3bcde0aa9af213c098de9d7c7 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_05815181c97b9b2367863babf0150373 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0226f47e6718d3c64885e29c16d753c1 = $(`<div id="html_0226f47e6718d3c64885e29c16d753c1" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 322 ha</div>`)[0];
+                popup_05815181c97b9b2367863babf0150373.setContent(html_0226f47e6718d3c64885e29c16d753c1);
+            
+        
+
+        marker_8e3238d3bcde0aa9af213c098de9d7c7.bindPopup(popup_05815181c97b9b2367863babf0150373)
+        ;
+
+        
+    
+    
+            var marker_eb81a858e994550014e61a5d9d94475e = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_de28ded8cc022b01fb13dcfe740ec79e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b88751810db6612924b7f75bf729e535 = $(`<div id="html_b88751810db6612924b7f75bf729e535" style="width: 100.0%; height: 100.0%;">Year: 2009<br>Forest Loss: 304 ha</div>`)[0];
+                popup_de28ded8cc022b01fb13dcfe740ec79e.setContent(html_b88751810db6612924b7f75bf729e535);
+            
+        
+
+        marker_eb81a858e994550014e61a5d9d94475e.bindPopup(popup_de28ded8cc022b01fb13dcfe740ec79e)
+        ;
+
+        
+    
+    
+            var marker_8704d607b9784e0ce1efcd6272503eaa = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_23cd33a9a5fb05619d00d75e80a6be89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae57d63b594479ee1c61dafe09dd8a59 = $(`<div id="html_ae57d63b594479ee1c61dafe09dd8a59" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 357 ha</div>`)[0];
+                popup_23cd33a9a5fb05619d00d75e80a6be89.setContent(html_ae57d63b594479ee1c61dafe09dd8a59);
+            
+        
+
+        marker_8704d607b9784e0ce1efcd6272503eaa.bindPopup(popup_23cd33a9a5fb05619d00d75e80a6be89)
+        ;
+
+        
+    
+    
+            var marker_5c2daf7ff38f719adc9cee57d514ff37 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_df0c2e51f2e145e943180dde9e2069a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d2582552c5a65ff4935ab311771dbf2 = $(`<div id="html_3d2582552c5a65ff4935ab311771dbf2" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 355 ha</div>`)[0];
+                popup_df0c2e51f2e145e943180dde9e2069a6.setContent(html_3d2582552c5a65ff4935ab311771dbf2);
+            
+        
+
+        marker_5c2daf7ff38f719adc9cee57d514ff37.bindPopup(popup_df0c2e51f2e145e943180dde9e2069a6)
+        ;
+
+        
+    
+    
+            var marker_f74c241e51ff3895dc001ffc67e0b40c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_893f3f64781365ed6f15802368c69ce8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b2011893c7bb9d7214046dffbfd43f = $(`<div id="html_03b2011893c7bb9d7214046dffbfd43f" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 355 ha</div>`)[0];
+                popup_893f3f64781365ed6f15802368c69ce8.setContent(html_03b2011893c7bb9d7214046dffbfd43f);
+            
+        
+
+        marker_f74c241e51ff3895dc001ffc67e0b40c.bindPopup(popup_893f3f64781365ed6f15802368c69ce8)
+        ;
+
+        
+    
+    
+            var marker_0786ea4a9fd543e814da20b03fe2fb0c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_5e92fa00123075f6665e0782c4101313 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_21ace54d56fc8af4e5b73083a92956e8 = $(`<div id="html_21ace54d56fc8af4e5b73083a92956e8" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 355 ha</div>`)[0];
+                popup_5e92fa00123075f6665e0782c4101313.setContent(html_21ace54d56fc8af4e5b73083a92956e8);
+            
+        
+
+        marker_0786ea4a9fd543e814da20b03fe2fb0c.bindPopup(popup_5e92fa00123075f6665e0782c4101313)
+        ;
+
+        
+    
+    
+            var marker_cb25c589599983a26e2c58e1ec3175bd = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_1462de626040f352c4a2c1cab5f1cb8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd72c3dc9c72a4351248d6b3aa6c6638 = $(`<div id="html_cd72c3dc9c72a4351248d6b3aa6c6638" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 355 ha</div>`)[0];
+                popup_1462de626040f352c4a2c1cab5f1cb8b.setContent(html_cd72c3dc9c72a4351248d6b3aa6c6638);
+            
+        
+
+        marker_cb25c589599983a26e2c58e1ec3175bd.bindPopup(popup_1462de626040f352c4a2c1cab5f1cb8b)
+        ;
+
+        
+    
+    
+            var marker_22f2349e8df138065caf89d4b6dd3f91 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9961dd2ca8d2274341dea9ae206caf99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a003a277d7b2d782909cead2a6ea2b19 = $(`<div id="html_a003a277d7b2d782909cead2a6ea2b19" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 354 ha</div>`)[0];
+                popup_9961dd2ca8d2274341dea9ae206caf99.setContent(html_a003a277d7b2d782909cead2a6ea2b19);
+            
+        
+
+        marker_22f2349e8df138065caf89d4b6dd3f91.bindPopup(popup_9961dd2ca8d2274341dea9ae206caf99)
+        ;
+
+        
+    
+    
+            var marker_db1d9ec2b5e2c78a3865a5610b1e8dd2 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_212cbd662b3c6fbfa27897de3fca3dc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7356a21417bf9c4c02d47aee1c4631d5 = $(`<div id="html_7356a21417bf9c4c02d47aee1c4631d5" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 352 ha</div>`)[0];
+                popup_212cbd662b3c6fbfa27897de3fca3dc7.setContent(html_7356a21417bf9c4c02d47aee1c4631d5);
+            
+        
+
+        marker_db1d9ec2b5e2c78a3865a5610b1e8dd2.bindPopup(popup_212cbd662b3c6fbfa27897de3fca3dc7)
+        ;
+
+        
+    
+    
+            var marker_a730779e673796ee3d184705e6d88cde = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_960a72bd4db7a0120b952669cda6d118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_479aedd7b96668603f78bff8c4ff92d1 = $(`<div id="html_479aedd7b96668603f78bff8c4ff92d1" style="width: 100.0%; height: 100.0%;">Year: 2010<br>Forest Loss: 333 ha</div>`)[0];
+                popup_960a72bd4db7a0120b952669cda6d118.setContent(html_479aedd7b96668603f78bff8c4ff92d1);
+            
+        
+
+        marker_a730779e673796ee3d184705e6d88cde.bindPopup(popup_960a72bd4db7a0120b952669cda6d118)
+        ;
+
+        
+    
+    
+            var marker_85d6f6b45e4600e4b1ab866255c1de22 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_354a12e0be1fee94ff05331a48185466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11d95188124dd4f3e0153b4e57327692 = $(`<div id="html_11d95188124dd4f3e0153b4e57327692" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_354a12e0be1fee94ff05331a48185466.setContent(html_11d95188124dd4f3e0153b4e57327692);
+            
+        
+
+        marker_85d6f6b45e4600e4b1ab866255c1de22.bindPopup(popup_354a12e0be1fee94ff05331a48185466)
+        ;
+
+        
+    
+    
+            var marker_3157606099d817f48e1d59e85a669c03 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_e6b2fff60f1092d157ae8bc91bbbbc86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdb1fae62d52f8c9c757ed439018e2a0 = $(`<div id="html_bdb1fae62d52f8c9c757ed439018e2a0" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_e6b2fff60f1092d157ae8bc91bbbbc86.setContent(html_bdb1fae62d52f8c9c757ed439018e2a0);
+            
+        
+
+        marker_3157606099d817f48e1d59e85a669c03.bindPopup(popup_e6b2fff60f1092d157ae8bc91bbbbc86)
+        ;
+
+        
+    
+    
+            var marker_603bf2d041f497f1a9f3187462b603b7 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_e507975a9ec2bf51a21e7cf47eccc792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d44c8ce41b9b5f3ee439dcc3daef87e = $(`<div id="html_0d44c8ce41b9b5f3ee439dcc3daef87e" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_e507975a9ec2bf51a21e7cf47eccc792.setContent(html_0d44c8ce41b9b5f3ee439dcc3daef87e);
+            
+        
+
+        marker_603bf2d041f497f1a9f3187462b603b7.bindPopup(popup_e507975a9ec2bf51a21e7cf47eccc792)
+        ;
+
+        
+    
+    
+            var marker_294ac0f703dc964abf4dd7392712a749 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_861f03078542cbdfbe565ae221d631b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_768d1611985098972c69df006f400999 = $(`<div id="html_768d1611985098972c69df006f400999" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_861f03078542cbdfbe565ae221d631b7.setContent(html_768d1611985098972c69df006f400999);
+            
+        
+
+        marker_294ac0f703dc964abf4dd7392712a749.bindPopup(popup_861f03078542cbdfbe565ae221d631b7)
+        ;
+
+        
+    
+    
+            var marker_024e41cd616b3bf9ad02f6c726d99cd7 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_85850e477ee8d996aed68e32ec21d284 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f51e248c5c62853dce575f80dce39f6d = $(`<div id="html_f51e248c5c62853dce575f80dce39f6d" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_85850e477ee8d996aed68e32ec21d284.setContent(html_f51e248c5c62853dce575f80dce39f6d);
+            
+        
+
+        marker_024e41cd616b3bf9ad02f6c726d99cd7.bindPopup(popup_85850e477ee8d996aed68e32ec21d284)
+        ;
+
+        
+    
+    
+            var marker_5667facf5b6532333d787218cba4bf62 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_4f7e6571f894ac011a23b565e786427a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f3d4d160ea568b7add4132bdcb092eb1 = $(`<div id="html_f3d4d160ea568b7add4132bdcb092eb1" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_4f7e6571f894ac011a23b565e786427a.setContent(html_f3d4d160ea568b7add4132bdcb092eb1);
+            
+        
+
+        marker_5667facf5b6532333d787218cba4bf62.bindPopup(popup_4f7e6571f894ac011a23b565e786427a)
+        ;
+
+        
+    
+    
+            var marker_798388d2653ad7aea9e31941fc3332b2 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9125aa456fd38bc27fc0b68a9f2fd3dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce655829a13941267f1ea2fff6fa2136 = $(`<div id="html_ce655829a13941267f1ea2fff6fa2136" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 37 ha</div>`)[0];
+                popup_9125aa456fd38bc27fc0b68a9f2fd3dd.setContent(html_ce655829a13941267f1ea2fff6fa2136);
+            
+        
+
+        marker_798388d2653ad7aea9e31941fc3332b2.bindPopup(popup_9125aa456fd38bc27fc0b68a9f2fd3dd)
+        ;
+
+        
+    
+    
+            var marker_c63345fe2fd6a557c5bb7ede5051c844 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ad8835d9aeb34b5cbd26b66a3e92d296 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92da10c07b5b40c2e3aaf1b561c1e926 = $(`<div id="html_92da10c07b5b40c2e3aaf1b561c1e926" style="width: 100.0%; height: 100.0%;">Year: 2011<br>Forest Loss: 36 ha</div>`)[0];
+                popup_ad8835d9aeb34b5cbd26b66a3e92d296.setContent(html_92da10c07b5b40c2e3aaf1b561c1e926);
+            
+        
+
+        marker_c63345fe2fd6a557c5bb7ede5051c844.bindPopup(popup_ad8835d9aeb34b5cbd26b66a3e92d296)
+        ;
+
+        
+    
+    
+            var marker_cf322918c9b4543919b5bdeac3ad50ff = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_1ef94f743cc989773605b194f24cf837 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fc352b9a877fe88979772b26020ffad = $(`<div id="html_5fc352b9a877fe88979772b26020ffad" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 101 ha</div>`)[0];
+                popup_1ef94f743cc989773605b194f24cf837.setContent(html_5fc352b9a877fe88979772b26020ffad);
+            
+        
+
+        marker_cf322918c9b4543919b5bdeac3ad50ff.bindPopup(popup_1ef94f743cc989773605b194f24cf837)
+        ;
+
+        
+    
+    
+            var marker_7ed29dede73036a0a66555d59acb50af = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9aec05fd4bc4f5add2bf5ea0cb52af8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3245ca7b25faaec74a5613f645e3ed01 = $(`<div id="html_3245ca7b25faaec74a5613f645e3ed01" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 100 ha</div>`)[0];
+                popup_9aec05fd4bc4f5add2bf5ea0cb52af8e.setContent(html_3245ca7b25faaec74a5613f645e3ed01);
+            
+        
+
+        marker_7ed29dede73036a0a66555d59acb50af.bindPopup(popup_9aec05fd4bc4f5add2bf5ea0cb52af8e)
+        ;
+
+        
+    
+    
+            var marker_9cda5c54dbd242113d48b01b0697923a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_95b333c828c95c071308cf0ddb462751 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba5ba7a77d6d345d499492fea1659727 = $(`<div id="html_ba5ba7a77d6d345d499492fea1659727" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 100 ha</div>`)[0];
+                popup_95b333c828c95c071308cf0ddb462751.setContent(html_ba5ba7a77d6d345d499492fea1659727);
+            
+        
+
+        marker_9cda5c54dbd242113d48b01b0697923a.bindPopup(popup_95b333c828c95c071308cf0ddb462751)
+        ;
+
+        
+    
+    
+            var marker_f40a42ef552a74a49015c1677d73b0ff = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_2a7364b543b94779b30702316e709799 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb2f17f7631ea8cf970ccb5e3b588f32 = $(`<div id="html_cb2f17f7631ea8cf970ccb5e3b588f32" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 100 ha</div>`)[0];
+                popup_2a7364b543b94779b30702316e709799.setContent(html_cb2f17f7631ea8cf970ccb5e3b588f32);
+            
+        
+
+        marker_f40a42ef552a74a49015c1677d73b0ff.bindPopup(popup_2a7364b543b94779b30702316e709799)
+        ;
+
+        
+    
+    
+            var marker_3fe5b5a12cf924007909a1bc49edf679 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_38cc2a5f519f1fa9f4504cb984ab1e71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00b885493ee576b96134e63cde2a17c5 = $(`<div id="html_00b885493ee576b96134e63cde2a17c5" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 100 ha</div>`)[0];
+                popup_38cc2a5f519f1fa9f4504cb984ab1e71.setContent(html_00b885493ee576b96134e63cde2a17c5);
+            
+        
+
+        marker_3fe5b5a12cf924007909a1bc49edf679.bindPopup(popup_38cc2a5f519f1fa9f4504cb984ab1e71)
+        ;
+
+        
+    
+    
+            var marker_bc5730ce07c3631a8edff54af2bf0d53 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_013d73df5477aab492dcfe2818e8a9e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_830444bfccac2f850a3931e0ec6f2036 = $(`<div id="html_830444bfccac2f850a3931e0ec6f2036" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 100 ha</div>`)[0];
+                popup_013d73df5477aab492dcfe2818e8a9e9.setContent(html_830444bfccac2f850a3931e0ec6f2036);
+            
+        
+
+        marker_bc5730ce07c3631a8edff54af2bf0d53.bindPopup(popup_013d73df5477aab492dcfe2818e8a9e9)
+        ;
+
+        
+    
+    
+            var marker_cbe82c2f5348b599cedeb53afc4a8e4e = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0f5c5f256b24ce2a0b544fbbd1c0de57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5adf87df7e2f5b3cde5cf75b72c3c2b = $(`<div id="html_e5adf87df7e2f5b3cde5cf75b72c3c2b" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 100 ha</div>`)[0];
+                popup_0f5c5f256b24ce2a0b544fbbd1c0de57.setContent(html_e5adf87df7e2f5b3cde5cf75b72c3c2b);
+            
+        
+
+        marker_cbe82c2f5348b599cedeb53afc4a8e4e.bindPopup(popup_0f5c5f256b24ce2a0b544fbbd1c0de57)
+        ;
+
+        
+    
+    
+            var marker_490534b41174cffa3891c9ca16d96dc0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_2e9c01fbe726dde63336e76a16481e3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42e39d8adbb9c9b1fce9ec60e4420eeb = $(`<div id="html_42e39d8adbb9c9b1fce9ec60e4420eeb" style="width: 100.0%; height: 100.0%;">Year: 2012<br>Forest Loss: 97 ha</div>`)[0];
+                popup_2e9c01fbe726dde63336e76a16481e3a.setContent(html_42e39d8adbb9c9b1fce9ec60e4420eeb);
+            
+        
+
+        marker_490534b41174cffa3891c9ca16d96dc0.bindPopup(popup_2e9c01fbe726dde63336e76a16481e3a)
+        ;
+
+        
+    
+    
+            var marker_f5f4b2db28126af2fe94ccee7204fe8e = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_f80a823a73a6fc0ba00f04744ad356c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_116c24b67f551fa517d3d6695dfd9992 = $(`<div id="html_116c24b67f551fa517d3d6695dfd9992" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_f80a823a73a6fc0ba00f04744ad356c7.setContent(html_116c24b67f551fa517d3d6695dfd9992);
+            
+        
+
+        marker_f5f4b2db28126af2fe94ccee7204fe8e.bindPopup(popup_f80a823a73a6fc0ba00f04744ad356c7)
+        ;
+
+        
+    
+    
+            var marker_86c1b2a967298c71ed53f5f92643d0ce = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_6036fadb2cd111a56a476485f9d65c0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b29144aba2b676fbc1bbfb92ff57e83 = $(`<div id="html_4b29144aba2b676fbc1bbfb92ff57e83" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_6036fadb2cd111a56a476485f9d65c0d.setContent(html_4b29144aba2b676fbc1bbfb92ff57e83);
+            
+        
+
+        marker_86c1b2a967298c71ed53f5f92643d0ce.bindPopup(popup_6036fadb2cd111a56a476485f9d65c0d)
+        ;
+
+        
+    
+    
+            var marker_c4dcd8df0702b7cb8f1df8617e3a0c96 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_acc38286cb76b08d17e42a65ff6d39b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71f3c63d7be4b55a5088510da191784d = $(`<div id="html_71f3c63d7be4b55a5088510da191784d" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_acc38286cb76b08d17e42a65ff6d39b3.setContent(html_71f3c63d7be4b55a5088510da191784d);
+            
+        
+
+        marker_c4dcd8df0702b7cb8f1df8617e3a0c96.bindPopup(popup_acc38286cb76b08d17e42a65ff6d39b3)
+        ;
+
+        
+    
+    
+            var marker_1b08e1d50d2f00bdd95c7174174f27fd = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_2d0398740ce22ca6661dc2ad9900627b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c38740dda0960e16c150cc91cd30fbd4 = $(`<div id="html_c38740dda0960e16c150cc91cd30fbd4" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_2d0398740ce22ca6661dc2ad9900627b.setContent(html_c38740dda0960e16c150cc91cd30fbd4);
+            
+        
+
+        marker_1b08e1d50d2f00bdd95c7174174f27fd.bindPopup(popup_2d0398740ce22ca6661dc2ad9900627b)
+        ;
+
+        
+    
+    
+            var marker_0dd33be4173e40336c9a0813561dfe87 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_117b34b72a568a870ac218e1cd2a50c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69f311fbe33c1f9c78e51de9d9caee78 = $(`<div id="html_69f311fbe33c1f9c78e51de9d9caee78" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_117b34b72a568a870ac218e1cd2a50c9.setContent(html_69f311fbe33c1f9c78e51de9d9caee78);
+            
+        
+
+        marker_0dd33be4173e40336c9a0813561dfe87.bindPopup(popup_117b34b72a568a870ac218e1cd2a50c9)
+        ;
+
+        
+    
+    
+            var marker_cc8391f25a441e5509aaf59bf41afe0f = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b06338fd11d7728eacc25a41af77e0b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_236bea6741ca480927d1eabc63af1405 = $(`<div id="html_236bea6741ca480927d1eabc63af1405" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_b06338fd11d7728eacc25a41af77e0b3.setContent(html_236bea6741ca480927d1eabc63af1405);
+            
+        
+
+        marker_cc8391f25a441e5509aaf59bf41afe0f.bindPopup(popup_b06338fd11d7728eacc25a41af77e0b3)
+        ;
+
+        
+    
+    
+            var marker_3f6ff96fa8d423b2c7696ea441f09a56 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_81b3245f283a10c60deb6e6fb12cb328 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_283c6e13016cd5bdbcf503f1d3970dd9 = $(`<div id="html_283c6e13016cd5bdbcf503f1d3970dd9" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_81b3245f283a10c60deb6e6fb12cb328.setContent(html_283c6e13016cd5bdbcf503f1d3970dd9);
+            
+        
+
+        marker_3f6ff96fa8d423b2c7696ea441f09a56.bindPopup(popup_81b3245f283a10c60deb6e6fb12cb328)
+        ;
+
+        
+    
+    
+            var marker_ceba523c550770950584c13bf7d04acd = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_19374ac82ae75495c1e15ca6f6dab78a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0cc9f57a224d8d3a49e92802c1a8990 = $(`<div id="html_d0cc9f57a224d8d3a49e92802c1a8990" style="width: 100.0%; height: 100.0%;">Year: 2013<br>Forest Loss: 0 ha</div>`)[0];
+                popup_19374ac82ae75495c1e15ca6f6dab78a.setContent(html_d0cc9f57a224d8d3a49e92802c1a8990);
+            
+        
+
+        marker_ceba523c550770950584c13bf7d04acd.bindPopup(popup_19374ac82ae75495c1e15ca6f6dab78a)
+        ;
+
+        
+    
+    
+            var marker_1f5a9373aec2608b8d8b7e58c44b5450 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a3d44b170966c93b2e0b39bcefab095b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4560c5398787bb49d61261c01a257808 = $(`<div id="html_4560c5398787bb49d61261c01a257808" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 111 ha</div>`)[0];
+                popup_a3d44b170966c93b2e0b39bcefab095b.setContent(html_4560c5398787bb49d61261c01a257808);
+            
+        
+
+        marker_1f5a9373aec2608b8d8b7e58c44b5450.bindPopup(popup_a3d44b170966c93b2e0b39bcefab095b)
+        ;
+
+        
+    
+    
+            var marker_cedf5525b441e557811cb77ee147dc06 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_2763dcf71c6fdefd1d8def1d3d927e77 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b55e28860a8b2dc0c55332ba6a2fb8ad = $(`<div id="html_b55e28860a8b2dc0c55332ba6a2fb8ad" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 106 ha</div>`)[0];
+                popup_2763dcf71c6fdefd1d8def1d3d927e77.setContent(html_b55e28860a8b2dc0c55332ba6a2fb8ad);
+            
+        
+
+        marker_cedf5525b441e557811cb77ee147dc06.bindPopup(popup_2763dcf71c6fdefd1d8def1d3d927e77)
+        ;
+
+        
+    
+    
+            var marker_e51d8c216d3472b669014ac8cd8c38cf = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_302794f1a8aafacb025fb0ee8a991942 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f9d35bc0f70895a4e6c2ebf4aa5a47e = $(`<div id="html_7f9d35bc0f70895a4e6c2ebf4aa5a47e" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 106 ha</div>`)[0];
+                popup_302794f1a8aafacb025fb0ee8a991942.setContent(html_7f9d35bc0f70895a4e6c2ebf4aa5a47e);
+            
+        
+
+        marker_e51d8c216d3472b669014ac8cd8c38cf.bindPopup(popup_302794f1a8aafacb025fb0ee8a991942)
+        ;
+
+        
+    
+    
+            var marker_5a557b27c0d47b54bc0ba2b89b170638 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_f0f81de512817e3d7ef7626b8334ae69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f20ad773e0620710300de59fdb99ac3e = $(`<div id="html_f20ad773e0620710300de59fdb99ac3e" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 106 ha</div>`)[0];
+                popup_f0f81de512817e3d7ef7626b8334ae69.setContent(html_f20ad773e0620710300de59fdb99ac3e);
+            
+        
+
+        marker_5a557b27c0d47b54bc0ba2b89b170638.bindPopup(popup_f0f81de512817e3d7ef7626b8334ae69)
+        ;
+
+        
+    
+    
+            var marker_a40ee0dfe04e32f3089c76fc4e7204c7 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_31bb26568f36b0b93491010efdd3b80e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38ddcbf65019ee93d6ddde5a8cf3b323 = $(`<div id="html_38ddcbf65019ee93d6ddde5a8cf3b323" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 106 ha</div>`)[0];
+                popup_31bb26568f36b0b93491010efdd3b80e.setContent(html_38ddcbf65019ee93d6ddde5a8cf3b323);
+            
+        
+
+        marker_a40ee0dfe04e32f3089c76fc4e7204c7.bindPopup(popup_31bb26568f36b0b93491010efdd3b80e)
+        ;
+
+        
+    
+    
+            var marker_2146620bb2e9b034233a7b30699c3a9b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_6fdfa75d02dcedc49465ddfbdd4558bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b868faef862c8054afa2c55783ebd6d2 = $(`<div id="html_b868faef862c8054afa2c55783ebd6d2" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 105 ha</div>`)[0];
+                popup_6fdfa75d02dcedc49465ddfbdd4558bd.setContent(html_b868faef862c8054afa2c55783ebd6d2);
+            
+        
+
+        marker_2146620bb2e9b034233a7b30699c3a9b.bindPopup(popup_6fdfa75d02dcedc49465ddfbdd4558bd)
+        ;
+
+        
+    
+    
+            var marker_96db417c85743610152189fc4fcfc3b3 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_13772b50310405f86a9939e054847411 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a91bb932a7bae4313dbb405154e9101 = $(`<div id="html_7a91bb932a7bae4313dbb405154e9101" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 103 ha</div>`)[0];
+                popup_13772b50310405f86a9939e054847411.setContent(html_7a91bb932a7bae4313dbb405154e9101);
+            
+        
+
+        marker_96db417c85743610152189fc4fcfc3b3.bindPopup(popup_13772b50310405f86a9939e054847411)
+        ;
+
+        
+    
+    
+            var marker_d459dadc66202a7b2ed464b4b937f72c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_bb42776963095e40931d9ab5770e71c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a475b699fa211319857e6497237778 = $(`<div id="html_08a475b699fa211319857e6497237778" style="width: 100.0%; height: 100.0%;">Year: 2014<br>Forest Loss: 91 ha</div>`)[0];
+                popup_bb42776963095e40931d9ab5770e71c0.setContent(html_08a475b699fa211319857e6497237778);
+            
+        
+
+        marker_d459dadc66202a7b2ed464b4b937f72c.bindPopup(popup_bb42776963095e40931d9ab5770e71c0)
+        ;
+
+        
+    
+    
+            var marker_62ae8b601fe50b095118381656935f4b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0543204a39d5f6d26987650d9d5183d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bdd6c5e34d23096f4f5a403dc0004fb = $(`<div id="html_2bdd6c5e34d23096f4f5a403dc0004fb" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_0543204a39d5f6d26987650d9d5183d1.setContent(html_2bdd6c5e34d23096f4f5a403dc0004fb);
+            
+        
+
+        marker_62ae8b601fe50b095118381656935f4b.bindPopup(popup_0543204a39d5f6d26987650d9d5183d1)
+        ;
+
+        
+    
+    
+            var marker_ff5dc8ba7297ac770afa7c789c9cd977 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_defc3a0e06d5899ad9b6cbcd2237d6c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8935bda8c7680add3204992bb89c028d = $(`<div id="html_8935bda8c7680add3204992bb89c028d" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_defc3a0e06d5899ad9b6cbcd2237d6c6.setContent(html_8935bda8c7680add3204992bb89c028d);
+            
+        
+
+        marker_ff5dc8ba7297ac770afa7c789c9cd977.bindPopup(popup_defc3a0e06d5899ad9b6cbcd2237d6c6)
+        ;
+
+        
+    
+    
+            var marker_695c7a41a6dd6324474efdbdfc1ae2c8 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_41a45c1a43a7739edfee68109aae379a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e47ad0eec6224035f258b69726c05a7 = $(`<div id="html_2e47ad0eec6224035f258b69726c05a7" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_41a45c1a43a7739edfee68109aae379a.setContent(html_2e47ad0eec6224035f258b69726c05a7);
+            
+        
+
+        marker_695c7a41a6dd6324474efdbdfc1ae2c8.bindPopup(popup_41a45c1a43a7739edfee68109aae379a)
+        ;
+
+        
+    
+    
+            var marker_f3def433599e0fb6d717e8b043c3bfbf = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_bdffc7636051541ea759c7dca7597ff7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2fe35cc84e34d472ecfd3302c347fdec = $(`<div id="html_2fe35cc84e34d472ecfd3302c347fdec" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_bdffc7636051541ea759c7dca7597ff7.setContent(html_2fe35cc84e34d472ecfd3302c347fdec);
+            
+        
+
+        marker_f3def433599e0fb6d717e8b043c3bfbf.bindPopup(popup_bdffc7636051541ea759c7dca7597ff7)
+        ;
+
+        
+    
+    
+            var marker_5ce910935000f78c0f859e4da3374beb = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_29b0c163ceb3a27a941dea394e47b631 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d7d205c2a5b4775cafe024755569c06 = $(`<div id="html_1d7d205c2a5b4775cafe024755569c06" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_29b0c163ceb3a27a941dea394e47b631.setContent(html_1d7d205c2a5b4775cafe024755569c06);
+            
+        
+
+        marker_5ce910935000f78c0f859e4da3374beb.bindPopup(popup_29b0c163ceb3a27a941dea394e47b631)
+        ;
+
+        
+    
+    
+            var marker_2b2f5cf791e34f60028b915e71b39ede = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_1552dc1c63ebcf24390e264f4a740e37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92156d60d993a9aeb2770f0ded8547ff = $(`<div id="html_92156d60d993a9aeb2770f0ded8547ff" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_1552dc1c63ebcf24390e264f4a740e37.setContent(html_92156d60d993a9aeb2770f0ded8547ff);
+            
+        
+
+        marker_2b2f5cf791e34f60028b915e71b39ede.bindPopup(popup_1552dc1c63ebcf24390e264f4a740e37)
+        ;
+
+        
+    
+    
+            var marker_92d377d83ecfcc26c49380582e2bb827 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_257782c77fe7493fe2f32593d59d869d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd93487cf91234a64d3139eaf9ef20f8 = $(`<div id="html_bd93487cf91234a64d3139eaf9ef20f8" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_257782c77fe7493fe2f32593d59d869d.setContent(html_bd93487cf91234a64d3139eaf9ef20f8);
+            
+        
+
+        marker_92d377d83ecfcc26c49380582e2bb827.bindPopup(popup_257782c77fe7493fe2f32593d59d869d)
+        ;
+
+        
+    
+    
+            var marker_a186bde6b841cea0727151cbce2c564c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9622bef4cc0bad1ca7a6177a3fe1839d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af410fa03c6eaa6ac64f6d9f2bf259ee = $(`<div id="html_af410fa03c6eaa6ac64f6d9f2bf259ee" style="width: 100.0%; height: 100.0%;">Year: 2015<br>Forest Loss: 0 ha</div>`)[0];
+                popup_9622bef4cc0bad1ca7a6177a3fe1839d.setContent(html_af410fa03c6eaa6ac64f6d9f2bf259ee);
+            
+        
+
+        marker_a186bde6b841cea0727151cbce2c564c.bindPopup(popup_9622bef4cc0bad1ca7a6177a3fe1839d)
+        ;
+
+        
+    
+    
+            var marker_e36f6e0e95b931a746d977d988718d06 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_4e0a38c24fd86125f37028dcca9c61fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdffc717cd9e60bf8e5770099ce1c165 = $(`<div id="html_cdffc717cd9e60bf8e5770099ce1c165" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_4e0a38c24fd86125f37028dcca9c61fe.setContent(html_cdffc717cd9e60bf8e5770099ce1c165);
+            
+        
+
+        marker_e36f6e0e95b931a746d977d988718d06.bindPopup(popup_4e0a38c24fd86125f37028dcca9c61fe)
+        ;
+
+        
+    
+    
+            var marker_36dfdcfa9341d34bab6b2417801373fd = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_853d6d5aa335a4af76f833145a199e80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1b20121c8ec477b79c68b344fd90ddd = $(`<div id="html_a1b20121c8ec477b79c68b344fd90ddd" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_853d6d5aa335a4af76f833145a199e80.setContent(html_a1b20121c8ec477b79c68b344fd90ddd);
+            
+        
+
+        marker_36dfdcfa9341d34bab6b2417801373fd.bindPopup(popup_853d6d5aa335a4af76f833145a199e80)
+        ;
+
+        
+    
+    
+            var marker_eb089b514ca09e101f06c2e1ac51106c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_487c7d04190cf6ca38f6e913505d4cdd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1427172687f3769e4154e5954d3ab3a6 = $(`<div id="html_1427172687f3769e4154e5954d3ab3a6" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_487c7d04190cf6ca38f6e913505d4cdd.setContent(html_1427172687f3769e4154e5954d3ab3a6);
+            
+        
+
+        marker_eb089b514ca09e101f06c2e1ac51106c.bindPopup(popup_487c7d04190cf6ca38f6e913505d4cdd)
+        ;
+
+        
+    
+    
+            var marker_8b7afd8e88c8992f2705f47eb5aa45ce = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_70a913caac15fe8ec8185e3ebfc6982a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fe21ba2af173b22ff5e89dc43460dfc = $(`<div id="html_6fe21ba2af173b22ff5e89dc43460dfc" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_70a913caac15fe8ec8185e3ebfc6982a.setContent(html_6fe21ba2af173b22ff5e89dc43460dfc);
+            
+        
+
+        marker_8b7afd8e88c8992f2705f47eb5aa45ce.bindPopup(popup_70a913caac15fe8ec8185e3ebfc6982a)
+        ;
+
+        
+    
+    
+            var marker_ea108cf253fb1d7a14f63ba2b64b7475 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ad1700d76d624f103bdfad13622b293d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f59da42a92bc8b4a857d17d17872c13 = $(`<div id="html_7f59da42a92bc8b4a857d17d17872c13" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_ad1700d76d624f103bdfad13622b293d.setContent(html_7f59da42a92bc8b4a857d17d17872c13);
+            
+        
+
+        marker_ea108cf253fb1d7a14f63ba2b64b7475.bindPopup(popup_ad1700d76d624f103bdfad13622b293d)
+        ;
+
+        
+    
+    
+            var marker_7a8e7edf0b5b1e7cd8d3254b0d488f81 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_306301aa234e6ef88be1f39e7f0ccbaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba1122ad91fae3d660927b870e15babe = $(`<div id="html_ba1122ad91fae3d660927b870e15babe" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_306301aa234e6ef88be1f39e7f0ccbaa.setContent(html_ba1122ad91fae3d660927b870e15babe);
+            
+        
+
+        marker_7a8e7edf0b5b1e7cd8d3254b0d488f81.bindPopup(popup_306301aa234e6ef88be1f39e7f0ccbaa)
+        ;
+
+        
+    
+    
+            var marker_84223cb275a17953512a1e88d51c81fc = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b7c1e674b140443a036ffce6899b6831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6a46e5a4a3c94f0e265098095d273a = $(`<div id="html_8e6a46e5a4a3c94f0e265098095d273a" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_b7c1e674b140443a036ffce6899b6831.setContent(html_8e6a46e5a4a3c94f0e265098095d273a);
+            
+        
+
+        marker_84223cb275a17953512a1e88d51c81fc.bindPopup(popup_b7c1e674b140443a036ffce6899b6831)
+        ;
+
+        
+    
+    
+            var marker_aa43e7fd24574396414a3067eec41cb1 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_2224ac128fb560b56475b5318b861f53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_107a51f7fa248ba42691de367af37d0a = $(`<div id="html_107a51f7fa248ba42691de367af37d0a" style="width: 100.0%; height: 100.0%;">Year: 2016<br>Forest Loss: 0 ha</div>`)[0];
+                popup_2224ac128fb560b56475b5318b861f53.setContent(html_107a51f7fa248ba42691de367af37d0a);
+            
+        
+
+        marker_aa43e7fd24574396414a3067eec41cb1.bindPopup(popup_2224ac128fb560b56475b5318b861f53)
+        ;
+
+        
+    
+    
+            var marker_3ca93aec9aecec2cb3d507333a279be0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_451df0839d7da900c8036cc64545b440 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d04a1ed9d074589e09b9670d871b71e = $(`<div id="html_4d04a1ed9d074589e09b9670d871b71e" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_451df0839d7da900c8036cc64545b440.setContent(html_4d04a1ed9d074589e09b9670d871b71e);
+            
+        
+
+        marker_3ca93aec9aecec2cb3d507333a279be0.bindPopup(popup_451df0839d7da900c8036cc64545b440)
+        ;
+
+        
+    
+    
+            var marker_877a89af36fe2a9cc1b4aeaed3a08415 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_39917cf229821c091994a9e4b5ebaa29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3559d254f58eb6a6bf93e5e8e3abf89a = $(`<div id="html_3559d254f58eb6a6bf93e5e8e3abf89a" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_39917cf229821c091994a9e4b5ebaa29.setContent(html_3559d254f58eb6a6bf93e5e8e3abf89a);
+            
+        
+
+        marker_877a89af36fe2a9cc1b4aeaed3a08415.bindPopup(popup_39917cf229821c091994a9e4b5ebaa29)
+        ;
+
+        
+    
+    
+            var marker_84f59b7bb514cd3cd291245b0a0e03fa = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0e9bc5aabaf4f9bb76d2193387b901a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24fdfd153dfd42cb675627fbcbff82a9 = $(`<div id="html_24fdfd153dfd42cb675627fbcbff82a9" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_0e9bc5aabaf4f9bb76d2193387b901a2.setContent(html_24fdfd153dfd42cb675627fbcbff82a9);
+            
+        
+
+        marker_84f59b7bb514cd3cd291245b0a0e03fa.bindPopup(popup_0e9bc5aabaf4f9bb76d2193387b901a2)
+        ;
+
+        
+    
+    
+            var marker_88070b1c89875d8ae8130d633b69e196 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ad95235986a2043fa0b1c7a7e6f28ee7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b024061c2d54ecf0174cf2722a85ceb = $(`<div id="html_7b024061c2d54ecf0174cf2722a85ceb" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_ad95235986a2043fa0b1c7a7e6f28ee7.setContent(html_7b024061c2d54ecf0174cf2722a85ceb);
+            
+        
+
+        marker_88070b1c89875d8ae8130d633b69e196.bindPopup(popup_ad95235986a2043fa0b1c7a7e6f28ee7)
+        ;
+
+        
+    
+    
+            var marker_fefa0461c0beb297c7d9fdba4dd8ad8e = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_cf385f90fef4f91f81254da01d35be17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cffea82951eee1f505992e730247f62d = $(`<div id="html_cffea82951eee1f505992e730247f62d" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_cf385f90fef4f91f81254da01d35be17.setContent(html_cffea82951eee1f505992e730247f62d);
+            
+        
+
+        marker_fefa0461c0beb297c7d9fdba4dd8ad8e.bindPopup(popup_cf385f90fef4f91f81254da01d35be17)
+        ;
+
+        
+    
+    
+            var marker_43928dc25f9369dda46321a77952b6ef = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_39a11c8c88e0935967e1e55733083006 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d1be2b0e92979a226064832a8528569 = $(`<div id="html_0d1be2b0e92979a226064832a8528569" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_39a11c8c88e0935967e1e55733083006.setContent(html_0d1be2b0e92979a226064832a8528569);
+            
+        
+
+        marker_43928dc25f9369dda46321a77952b6ef.bindPopup(popup_39a11c8c88e0935967e1e55733083006)
+        ;
+
+        
+    
+    
+            var marker_30de634ba8c404d66d138f999dfa4940 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a484e9f69758c66c2188460fdc2cec31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_537fbe0b24f8df6d8a9e73222f70124e = $(`<div id="html_537fbe0b24f8df6d8a9e73222f70124e" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_a484e9f69758c66c2188460fdc2cec31.setContent(html_537fbe0b24f8df6d8a9e73222f70124e);
+            
+        
+
+        marker_30de634ba8c404d66d138f999dfa4940.bindPopup(popup_a484e9f69758c66c2188460fdc2cec31)
+        ;
+
+        
+    
+    
+            var marker_ad90508a466e6519aebd7895ffd84e59 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_39c0ddb5b7f42001c902fd8985fcdbf1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57290125cd055bfd0d2393c5191af99c = $(`<div id="html_57290125cd055bfd0d2393c5191af99c" style="width: 100.0%; height: 100.0%;">Year: 2017<br>Forest Loss: 0 ha</div>`)[0];
+                popup_39c0ddb5b7f42001c902fd8985fcdbf1.setContent(html_57290125cd055bfd0d2393c5191af99c);
+            
+        
+
+        marker_ad90508a466e6519aebd7895ffd84e59.bindPopup(popup_39c0ddb5b7f42001c902fd8985fcdbf1)
+        ;
+
+        
+    
+    
+            var marker_ce6cc8a6dfb3b474b837a20de375807b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_fa00bca47e89c9423d51800c693b9abe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_176864a87a83cc8247dc5d834cf89159 = $(`<div id="html_176864a87a83cc8247dc5d834cf89159" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 14 ha</div>`)[0];
+                popup_fa00bca47e89c9423d51800c693b9abe.setContent(html_176864a87a83cc8247dc5d834cf89159);
+            
+        
+
+        marker_ce6cc8a6dfb3b474b837a20de375807b.bindPopup(popup_fa00bca47e89c9423d51800c693b9abe)
+        ;
+
+        
+    
+    
+            var marker_9f9a3a5f2ae42ae4282eea9eeb97a20d = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_961720b73d6d8aef248ca70fa2cc9d33 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b9d1e962b0509e32d8be1507d2215f1 = $(`<div id="html_6b9d1e962b0509e32d8be1507d2215f1" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 12 ha</div>`)[0];
+                popup_961720b73d6d8aef248ca70fa2cc9d33.setContent(html_6b9d1e962b0509e32d8be1507d2215f1);
+            
+        
+
+        marker_9f9a3a5f2ae42ae4282eea9eeb97a20d.bindPopup(popup_961720b73d6d8aef248ca70fa2cc9d33)
+        ;
+
+        
+    
+    
+            var marker_7fe79fafdc3942e5ba3fb1ac95e3e67d = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_220f61ff1e68615cb1eda18ad0e00505 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5696613865a2a8502ac8123c6b533835 = $(`<div id="html_5696613865a2a8502ac8123c6b533835" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 12 ha</div>`)[0];
+                popup_220f61ff1e68615cb1eda18ad0e00505.setContent(html_5696613865a2a8502ac8123c6b533835);
+            
+        
+
+        marker_7fe79fafdc3942e5ba3fb1ac95e3e67d.bindPopup(popup_220f61ff1e68615cb1eda18ad0e00505)
+        ;
+
+        
+    
+    
+            var marker_99e2f696b7e1ab737e1fc12b39815226 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b9768526395ab855ea54dc086768f9cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63193833bd438bd8c06b0731b20159a3 = $(`<div id="html_63193833bd438bd8c06b0731b20159a3" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 12 ha</div>`)[0];
+                popup_b9768526395ab855ea54dc086768f9cc.setContent(html_63193833bd438bd8c06b0731b20159a3);
+            
+        
+
+        marker_99e2f696b7e1ab737e1fc12b39815226.bindPopup(popup_b9768526395ab855ea54dc086768f9cc)
+        ;
+
+        
+    
+    
+            var marker_350938638d1642511390ba3c7ae68598 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_55f08d373a6e5cfd6d3137f93cc5a9fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c95cb578b5aab981701c34f5ca1203c = $(`<div id="html_6c95cb578b5aab981701c34f5ca1203c" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 12 ha</div>`)[0];
+                popup_55f08d373a6e5cfd6d3137f93cc5a9fa.setContent(html_6c95cb578b5aab981701c34f5ca1203c);
+            
+        
+
+        marker_350938638d1642511390ba3c7ae68598.bindPopup(popup_55f08d373a6e5cfd6d3137f93cc5a9fa)
+        ;
+
+        
+    
+    
+            var marker_e4f8b9f3cf3bffff0e285f3de5d94d0c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_028d2a70438d6c32c475acb933d37ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9dd8fdd1d7af5f8168e41fd0bbb370d = $(`<div id="html_b9dd8fdd1d7af5f8168e41fd0bbb370d" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 12 ha</div>`)[0];
+                popup_028d2a70438d6c32c475acb933d37ba2.setContent(html_b9dd8fdd1d7af5f8168e41fd0bbb370d);
+            
+        
+
+        marker_e4f8b9f3cf3bffff0e285f3de5d94d0c.bindPopup(popup_028d2a70438d6c32c475acb933d37ba2)
+        ;
+
+        
+    
+    
+            var marker_55a01a521693059ff5dd3677f085b3ee = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a8c9cf0e58669e4cf335a8d05e3f5bac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7603f8fb9407e2cf4465f9c67e35a043 = $(`<div id="html_7603f8fb9407e2cf4465f9c67e35a043" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 12 ha</div>`)[0];
+                popup_a8c9cf0e58669e4cf335a8d05e3f5bac.setContent(html_7603f8fb9407e2cf4465f9c67e35a043);
+            
+        
+
+        marker_55a01a521693059ff5dd3677f085b3ee.bindPopup(popup_a8c9cf0e58669e4cf335a8d05e3f5bac)
+        ;
+
+        
+    
+    
+            var marker_cd8f625e93c534d5db1619805ecac6f4 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_1d2c97ab1cbfae8e03030747f3ed39a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8369677649c8f8a7c137545b2e9126d = $(`<div id="html_e8369677649c8f8a7c137545b2e9126d" style="width: 100.0%; height: 100.0%;">Year: 2018<br>Forest Loss: 10 ha</div>`)[0];
+                popup_1d2c97ab1cbfae8e03030747f3ed39a1.setContent(html_e8369677649c8f8a7c137545b2e9126d);
+            
+        
+
+        marker_cd8f625e93c534d5db1619805ecac6f4.bindPopup(popup_1d2c97ab1cbfae8e03030747f3ed39a1)
+        ;
+
+        
+    
+    
+            var marker_f98839e98180aa9f643f4aa80171ea2a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_00419a14be8ca14529a07affbffa93cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f368b70a1a7ac676edec650fb439513b = $(`<div id="html_f368b70a1a7ac676edec650fb439513b" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 44 ha</div>`)[0];
+                popup_00419a14be8ca14529a07affbffa93cd.setContent(html_f368b70a1a7ac676edec650fb439513b);
+            
+        
+
+        marker_f98839e98180aa9f643f4aa80171ea2a.bindPopup(popup_00419a14be8ca14529a07affbffa93cd)
+        ;
+
+        
+    
+    
+            var marker_bc2ceeb4b01ebdddbf0c9ba2f48fb941 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d1fdc9b312df0a85ffcba7839b739935 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a866846f45bd151523cec4680041ddf = $(`<div id="html_8a866846f45bd151523cec4680041ddf" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 40 ha</div>`)[0];
+                popup_d1fdc9b312df0a85ffcba7839b739935.setContent(html_8a866846f45bd151523cec4680041ddf);
+            
+        
+
+        marker_bc2ceeb4b01ebdddbf0c9ba2f48fb941.bindPopup(popup_d1fdc9b312df0a85ffcba7839b739935)
+        ;
+
+        
+    
+    
+            var marker_ff936ab6ed2d2a500e330ba20c6c0b82 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_696155414d1e2cffee9178c6d056932b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_970424eaeef0b157d5910743c1a68e9f = $(`<div id="html_970424eaeef0b157d5910743c1a68e9f" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 40 ha</div>`)[0];
+                popup_696155414d1e2cffee9178c6d056932b.setContent(html_970424eaeef0b157d5910743c1a68e9f);
+            
+        
+
+        marker_ff936ab6ed2d2a500e330ba20c6c0b82.bindPopup(popup_696155414d1e2cffee9178c6d056932b)
+        ;
+
+        
+    
+    
+            var marker_8b8f6edf67952cdcfa695143f17e50f8 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d7aa93360da5dc1580e7984c218c6c51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_acff8f7b66ea4197427e0135ce064d39 = $(`<div id="html_acff8f7b66ea4197427e0135ce064d39" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 39 ha</div>`)[0];
+                popup_d7aa93360da5dc1580e7984c218c6c51.setContent(html_acff8f7b66ea4197427e0135ce064d39);
+            
+        
+
+        marker_8b8f6edf67952cdcfa695143f17e50f8.bindPopup(popup_d7aa93360da5dc1580e7984c218c6c51)
+        ;
+
+        
+    
+    
+            var marker_1cfe18c456389c6b4c2c60dcfe9dda1f = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_91acfaa0d5a8d195c518a6560573063e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10c93e3dd381fcece29498d114b33a49 = $(`<div id="html_10c93e3dd381fcece29498d114b33a49" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 39 ha</div>`)[0];
+                popup_91acfaa0d5a8d195c518a6560573063e.setContent(html_10c93e3dd381fcece29498d114b33a49);
+            
+        
+
+        marker_1cfe18c456389c6b4c2c60dcfe9dda1f.bindPopup(popup_91acfaa0d5a8d195c518a6560573063e)
+        ;
+
+        
+    
+    
+            var marker_2ec23981d11a4c475c683ed9e015d912 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_71e40940f609d0245c28e7b74f14c536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c9f5e8694986a883a3c5d30af62febe = $(`<div id="html_4c9f5e8694986a883a3c5d30af62febe" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 39 ha</div>`)[0];
+                popup_71e40940f609d0245c28e7b74f14c536.setContent(html_4c9f5e8694986a883a3c5d30af62febe);
+            
+        
+
+        marker_2ec23981d11a4c475c683ed9e015d912.bindPopup(popup_71e40940f609d0245c28e7b74f14c536)
+        ;
+
+        
+    
+    
+            var marker_fb6fa17e85fc9c7c0e879af63d9f051b = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_5f9ca927168c05635977d569fc2caf06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdf0d8f68c7f1ef2da80b7c97ea311b3 = $(`<div id="html_bdf0d8f68c7f1ef2da80b7c97ea311b3" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 37 ha</div>`)[0];
+                popup_5f9ca927168c05635977d569fc2caf06.setContent(html_bdf0d8f68c7f1ef2da80b7c97ea311b3);
+            
+        
+
+        marker_fb6fa17e85fc9c7c0e879af63d9f051b.bindPopup(popup_5f9ca927168c05635977d569fc2caf06)
+        ;
+
+        
+    
+    
+            var marker_6cdca60180bb415f5e2e42dc14f3c70e = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_527f34a33b9eefad92c9cdf052b6ab1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bebe2ef286fcdd6b26141c12c973744f = $(`<div id="html_bebe2ef286fcdd6b26141c12c973744f" style="width: 100.0%; height: 100.0%;">Year: 2019<br>Forest Loss: 31 ha</div>`)[0];
+                popup_527f34a33b9eefad92c9cdf052b6ab1e.setContent(html_bebe2ef286fcdd6b26141c12c973744f);
+            
+        
+
+        marker_6cdca60180bb415f5e2e42dc14f3c70e.bindPopup(popup_527f34a33b9eefad92c9cdf052b6ab1e)
+        ;
+
+        
+    
+    
+            var marker_215906f0dda3d0c73e83b25b3be9b60a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_3c12dc1f702d5adfb463792ee77845a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f457816b25c75f219fdeb19e67dc630c = $(`<div id="html_f457816b25c75f219fdeb19e67dc630c" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 54 ha</div>`)[0];
+                popup_3c12dc1f702d5adfb463792ee77845a0.setContent(html_f457816b25c75f219fdeb19e67dc630c);
+            
+        
+
+        marker_215906f0dda3d0c73e83b25b3be9b60a.bindPopup(popup_3c12dc1f702d5adfb463792ee77845a0)
+        ;
+
+        
+    
+    
+            var marker_897f3a92ab48771bca1f61949ec9fd45 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_35e013859f5c20c800f380ec8975991d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f75abb47fcc6388cb8cc8ca5a22b39b6 = $(`<div id="html_f75abb47fcc6388cb8cc8ca5a22b39b6" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 46 ha</div>`)[0];
+                popup_35e013859f5c20c800f380ec8975991d.setContent(html_f75abb47fcc6388cb8cc8ca5a22b39b6);
+            
+        
+
+        marker_897f3a92ab48771bca1f61949ec9fd45.bindPopup(popup_35e013859f5c20c800f380ec8975991d)
+        ;
+
+        
+    
+    
+            var marker_f727619dde3088d779f8e99d1247fec0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_19dc0a58f4dbb89ab66f056d1b3acefe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e062af84857ae74077c7a39c6840f14 = $(`<div id="html_9e062af84857ae74077c7a39c6840f14" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 45 ha</div>`)[0];
+                popup_19dc0a58f4dbb89ab66f056d1b3acefe.setContent(html_9e062af84857ae74077c7a39c6840f14);
+            
+        
+
+        marker_f727619dde3088d779f8e99d1247fec0.bindPopup(popup_19dc0a58f4dbb89ab66f056d1b3acefe)
+        ;
+
+        
+    
+    
+            var marker_83328d59a26a8dc2faf3691608ea640d = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_1e83653618fb070047dcfe2777b10b0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_083af7eb9e7c237497dcf061c60368b9 = $(`<div id="html_083af7eb9e7c237497dcf061c60368b9" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 44 ha</div>`)[0];
+                popup_1e83653618fb070047dcfe2777b10b0a.setContent(html_083af7eb9e7c237497dcf061c60368b9);
+            
+        
+
+        marker_83328d59a26a8dc2faf3691608ea640d.bindPopup(popup_1e83653618fb070047dcfe2777b10b0a)
+        ;
+
+        
+    
+    
+            var marker_322dc96717be08ac84a6edb7a14004bf = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_ef16b04472937a02f31865180dd6910e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd5c65024eaa9a4d75e4fd2c3866e87e = $(`<div id="html_dd5c65024eaa9a4d75e4fd2c3866e87e" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 44 ha</div>`)[0];
+                popup_ef16b04472937a02f31865180dd6910e.setContent(html_dd5c65024eaa9a4d75e4fd2c3866e87e);
+            
+        
+
+        marker_322dc96717be08ac84a6edb7a14004bf.bindPopup(popup_ef16b04472937a02f31865180dd6910e)
+        ;
+
+        
+    
+    
+            var marker_bdea55bc5f9d8943cf33f8e70002ba53 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_3a01f8e86df61b000887330c900e4b0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ebfa4933773ab0ac3b5704fb0dda044 = $(`<div id="html_3ebfa4933773ab0ac3b5704fb0dda044" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 44 ha</div>`)[0];
+                popup_3a01f8e86df61b000887330c900e4b0e.setContent(html_3ebfa4933773ab0ac3b5704fb0dda044);
+            
+        
+
+        marker_bdea55bc5f9d8943cf33f8e70002ba53.bindPopup(popup_3a01f8e86df61b000887330c900e4b0e)
+        ;
+
+        
+    
+    
+            var marker_fbebb9b3416c43c8a6c4706a4d59ab0a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_6cce709cf280b03ba15c8c9e22436a93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_752ca427478cc69b32ba09687e9dd17a = $(`<div id="html_752ca427478cc69b32ba09687e9dd17a" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 41 ha</div>`)[0];
+                popup_6cce709cf280b03ba15c8c9e22436a93.setContent(html_752ca427478cc69b32ba09687e9dd17a);
+            
+        
+
+        marker_fbebb9b3416c43c8a6c4706a4d59ab0a.bindPopup(popup_6cce709cf280b03ba15c8c9e22436a93)
+        ;
+
+        
+    
+    
+            var marker_0f63ed7f1c2bc8f9685072af2a4183a2 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_b5d429ca8bdb407b1ce3391240e73fb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07185a018feb5a1f79c665eedc831acd = $(`<div id="html_07185a018feb5a1f79c665eedc831acd" style="width: 100.0%; height: 100.0%;">Year: 2020<br>Forest Loss: 34 ha</div>`)[0];
+                popup_b5d429ca8bdb407b1ce3391240e73fb3.setContent(html_07185a018feb5a1f79c665eedc831acd);
+            
+        
+
+        marker_0f63ed7f1c2bc8f9685072af2a4183a2.bindPopup(popup_b5d429ca8bdb407b1ce3391240e73fb3)
+        ;
+
+        
+    
+    
+            var marker_6b89a521415204c4d7f4ac036e58a266 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_f6b42a657b5a8dceb0b42588d75b6a9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8688c9d9321d494119a4db180f66f076 = $(`<div id="html_8688c9d9321d494119a4db180f66f076" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 14 ha</div>`)[0];
+                popup_f6b42a657b5a8dceb0b42588d75b6a9a.setContent(html_8688c9d9321d494119a4db180f66f076);
+            
+        
+
+        marker_6b89a521415204c4d7f4ac036e58a266.bindPopup(popup_f6b42a657b5a8dceb0b42588d75b6a9a)
+        ;
+
+        
+    
+    
+            var marker_e8a6423a0b427cb05cca7582efdb0438 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_78d450da7aa43ccb7b2c3d173d835c97 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50ac912f80921a623f589efca7cde27e = $(`<div id="html_50ac912f80921a623f589efca7cde27e" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 13 ha</div>`)[0];
+                popup_78d450da7aa43ccb7b2c3d173d835c97.setContent(html_50ac912f80921a623f589efca7cde27e);
+            
+        
+
+        marker_e8a6423a0b427cb05cca7582efdb0438.bindPopup(popup_78d450da7aa43ccb7b2c3d173d835c97)
+        ;
+
+        
+    
+    
+            var marker_c90f2eda4cd4da0fbfb045b34224c542 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_eca009754c2deb5b0b4d50cd0c6ca12d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88187ed311e90f8c8bbf2e0b4d283f6d = $(`<div id="html_88187ed311e90f8c8bbf2e0b4d283f6d" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 12 ha</div>`)[0];
+                popup_eca009754c2deb5b0b4d50cd0c6ca12d.setContent(html_88187ed311e90f8c8bbf2e0b4d283f6d);
+            
+        
+
+        marker_c90f2eda4cd4da0fbfb045b34224c542.bindPopup(popup_eca009754c2deb5b0b4d50cd0c6ca12d)
+        ;
+
+        
+    
+    
+            var marker_c7a81eddc72f1e90773b83fd8662ba18 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_19137a6ac98cd452dc3c28295472aa4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19301fce753b0660fbf712f1750ca5a7 = $(`<div id="html_19301fce753b0660fbf712f1750ca5a7" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 12 ha</div>`)[0];
+                popup_19137a6ac98cd452dc3c28295472aa4a.setContent(html_19301fce753b0660fbf712f1750ca5a7);
+            
+        
+
+        marker_c7a81eddc72f1e90773b83fd8662ba18.bindPopup(popup_19137a6ac98cd452dc3c28295472aa4a)
+        ;
+
+        
+    
+    
+            var marker_59f402eca5113bb7e85ad377cfbb2f9a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_fd67fae428387b3c55c318f1e88abb60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba65285588e429172647613fd61a675d = $(`<div id="html_ba65285588e429172647613fd61a675d" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 12 ha</div>`)[0];
+                popup_fd67fae428387b3c55c318f1e88abb60.setContent(html_ba65285588e429172647613fd61a675d);
+            
+        
+
+        marker_59f402eca5113bb7e85ad377cfbb2f9a.bindPopup(popup_fd67fae428387b3c55c318f1e88abb60)
+        ;
+
+        
+    
+    
+            var marker_2be5e9a4ecd1a9168ae6ec120406a7c9 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_8df31f13f61de99de22b2ed52409c54e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e77a9e4bc91b293319e5992815f57b = $(`<div id="html_c6e77a9e4bc91b293319e5992815f57b" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 12 ha</div>`)[0];
+                popup_8df31f13f61de99de22b2ed52409c54e.setContent(html_c6e77a9e4bc91b293319e5992815f57b);
+            
+        
+
+        marker_2be5e9a4ecd1a9168ae6ec120406a7c9.bindPopup(popup_8df31f13f61de99de22b2ed52409c54e)
+        ;
+
+        
+    
+    
+            var marker_5e9cc86e059af7d58587c3d13030996f = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_802d665f83d077f6115301b4b4124551 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4492c4e129eb91788c192b0d2e6f256 = $(`<div id="html_e4492c4e129eb91788c192b0d2e6f256" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 12 ha</div>`)[0];
+                popup_802d665f83d077f6115301b4b4124551.setContent(html_e4492c4e129eb91788c192b0d2e6f256);
+            
+        
+
+        marker_5e9cc86e059af7d58587c3d13030996f.bindPopup(popup_802d665f83d077f6115301b4b4124551)
+        ;
+
+        
+    
+    
+            var marker_84061a251887717b79dfe036f6b625f0 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a81b1d3079518417c76f2bccc32d63fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40770b8c85286dff7894cce0a3aea076 = $(`<div id="html_40770b8c85286dff7894cce0a3aea076" style="width: 100.0%; height: 100.0%;">Year: 2021<br>Forest Loss: 11 ha</div>`)[0];
+                popup_a81b1d3079518417c76f2bccc32d63fd.setContent(html_40770b8c85286dff7894cce0a3aea076);
+            
+        
+
+        marker_84061a251887717b79dfe036f6b625f0.bindPopup(popup_a81b1d3079518417c76f2bccc32d63fd)
+        ;
+
+        
+    
+    
+            var marker_d952f5dfde271a84fc23359952388861 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_3c42432c0c865960a2b0f6d7c4bf2924 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23da6644bb08a5081789998c6793baff = $(`<div id="html_23da6644bb08a5081789998c6793baff" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 30 ha</div>`)[0];
+                popup_3c42432c0c865960a2b0f6d7c4bf2924.setContent(html_23da6644bb08a5081789998c6793baff);
+            
+        
+
+        marker_d952f5dfde271a84fc23359952388861.bindPopup(popup_3c42432c0c865960a2b0f6d7c4bf2924)
+        ;
+
+        
+    
+    
+            var marker_67641d7bf773098fbcf648180ec53fff = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d55d3a997902b47013385e6565d92ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49417e4d726b92de1bfb0ae888f68e42 = $(`<div id="html_49417e4d726b92de1bfb0ae888f68e42" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 23 ha</div>`)[0];
+                popup_d55d3a997902b47013385e6565d92ff2.setContent(html_49417e4d726b92de1bfb0ae888f68e42);
+            
+        
+
+        marker_67641d7bf773098fbcf648180ec53fff.bindPopup(popup_d55d3a997902b47013385e6565d92ff2)
+        ;
+
+        
+    
+    
+            var marker_535ed51c102c41d4dd1cf906675ed9ed = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_9f6cbda3447de256dda72aa7f8032fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f58117820387a55c6bb72d454540ae3d = $(`<div id="html_f58117820387a55c6bb72d454540ae3d" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 22 ha</div>`)[0];
+                popup_9f6cbda3447de256dda72aa7f8032fe1.setContent(html_f58117820387a55c6bb72d454540ae3d);
+            
+        
+
+        marker_535ed51c102c41d4dd1cf906675ed9ed.bindPopup(popup_9f6cbda3447de256dda72aa7f8032fe1)
+        ;
+
+        
+    
+    
+            var marker_b6a5999213df6e715a4dacbbb0c46709 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_31b87819fd0d556a7791503474604c4b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5587c711f067542edfb147077671c4f3 = $(`<div id="html_5587c711f067542edfb147077671c4f3" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 21 ha</div>`)[0];
+                popup_31b87819fd0d556a7791503474604c4b.setContent(html_5587c711f067542edfb147077671c4f3);
+            
+        
+
+        marker_b6a5999213df6e715a4dacbbb0c46709.bindPopup(popup_31b87819fd0d556a7791503474604c4b)
+        ;
+
+        
+    
+    
+            var marker_1ee003d13caa81d4814109443d744ce1 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_771ad06564fa7bf8acde03e9de230e48 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae4973f3381c0d72a43920ac2f4c1193 = $(`<div id="html_ae4973f3381c0d72a43920ac2f4c1193" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 21 ha</div>`)[0];
+                popup_771ad06564fa7bf8acde03e9de230e48.setContent(html_ae4973f3381c0d72a43920ac2f4c1193);
+            
+        
+
+        marker_1ee003d13caa81d4814109443d744ce1.bindPopup(popup_771ad06564fa7bf8acde03e9de230e48)
+        ;
+
+        
+    
+    
+            var marker_101d784a7cfcc8a0fd5272faf0985ae8 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_3e8dc9526f596ab90347df176d0ac29d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1065df0dcc5d25426b6474c2a9a6446c = $(`<div id="html_1065df0dcc5d25426b6474c2a9a6446c" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 21 ha</div>`)[0];
+                popup_3e8dc9526f596ab90347df176d0ac29d.setContent(html_1065df0dcc5d25426b6474c2a9a6446c);
+            
+        
+
+        marker_101d784a7cfcc8a0fd5272faf0985ae8.bindPopup(popup_3e8dc9526f596ab90347df176d0ac29d)
+        ;
+
+        
+    
+    
+            var marker_f0499b31a61fcf6b8d31dcc319b29065 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_026285c00639bd68f43ebc84ef59961f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_647405889749abd73137654d593d3c5b = $(`<div id="html_647405889749abd73137654d593d3c5b" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 20 ha</div>`)[0];
+                popup_026285c00639bd68f43ebc84ef59961f.setContent(html_647405889749abd73137654d593d3c5b);
+            
+        
+
+        marker_f0499b31a61fcf6b8d31dcc319b29065.bindPopup(popup_026285c00639bd68f43ebc84ef59961f)
+        ;
+
+        
+    
+    
+            var marker_fc72e1363753358f8284bce0a53daf60 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_5e97bdbf4f0940a63757306cada1f1c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_757fbe6aef7599acc6483369d1e5727a = $(`<div id="html_757fbe6aef7599acc6483369d1e5727a" style="width: 100.0%; height: 100.0%;">Year: 2022<br>Forest Loss: 15 ha</div>`)[0];
+                popup_5e97bdbf4f0940a63757306cada1f1c8.setContent(html_757fbe6aef7599acc6483369d1e5727a);
+            
+        
+
+        marker_fc72e1363753358f8284bce0a53daf60.bindPopup(popup_5e97bdbf4f0940a63757306cada1f1c8)
+        ;
+
+        
+    
+    
+            var marker_7f4d8419730893b86fe38583d1ff9977 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0f4484859cc61f7eb2affc9d608b849b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bcf2b5579ad385f6f0e39375e478ed2e = $(`<div id="html_bcf2b5579ad385f6f0e39375e478ed2e" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 7 ha</div>`)[0];
+                popup_0f4484859cc61f7eb2affc9d608b849b.setContent(html_bcf2b5579ad385f6f0e39375e478ed2e);
+            
+        
+
+        marker_7f4d8419730893b86fe38583d1ff9977.bindPopup(popup_0f4484859cc61f7eb2affc9d608b849b)
+        ;
+
+        
+    
+    
+            var marker_26e026677a44fc86c1f31b0da1abf36c = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_a722d51f0420c8e5d7245bc112cdc994 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6ff5e6f87c232aa03228c0bf8ee28fef = $(`<div id="html_6ff5e6f87c232aa03228c0bf8ee28fef" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 6 ha</div>`)[0];
+                popup_a722d51f0420c8e5d7245bc112cdc994.setContent(html_6ff5e6f87c232aa03228c0bf8ee28fef);
+            
+        
+
+        marker_26e026677a44fc86c1f31b0da1abf36c.bindPopup(popup_a722d51f0420c8e5d7245bc112cdc994)
+        ;
+
+        
+    
+    
+            var marker_71125fe63a7c165450d80a989c7e91a1 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_63e726d59294a85ab7bd86e1b62054f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4cf0381864a0e93302cac672c54d78e = $(`<div id="html_e4cf0381864a0e93302cac672c54d78e" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 6 ha</div>`)[0];
+                popup_63e726d59294a85ab7bd86e1b62054f2.setContent(html_e4cf0381864a0e93302cac672c54d78e);
+            
+        
+
+        marker_71125fe63a7c165450d80a989c7e91a1.bindPopup(popup_63e726d59294a85ab7bd86e1b62054f2)
+        ;
+
+        
+    
+    
+            var marker_c93d493d99dce5d05f119e777ea8501a = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_48e54371ac4c945535365afc8629023c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e0fef93ca64929eccc67635efb2762 = $(`<div id="html_10e0fef93ca64929eccc67635efb2762" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 6 ha</div>`)[0];
+                popup_48e54371ac4c945535365afc8629023c.setContent(html_10e0fef93ca64929eccc67635efb2762);
+            
+        
+
+        marker_c93d493d99dce5d05f119e777ea8501a.bindPopup(popup_48e54371ac4c945535365afc8629023c)
+        ;
+
+        
+    
+    
+            var marker_201651005eacdc19080c3f0a21035711 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_0553b788561c439bad95960b7f7a9f81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b56607d34594828c0ba24ae3a7ab59ac = $(`<div id="html_b56607d34594828c0ba24ae3a7ab59ac" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 6 ha</div>`)[0];
+                popup_0553b788561c439bad95960b7f7a9f81.setContent(html_b56607d34594828c0ba24ae3a7ab59ac);
+            
+        
+
+        marker_201651005eacdc19080c3f0a21035711.bindPopup(popup_0553b788561c439bad95960b7f7a9f81)
+        ;
+
+        
+    
+    
+            var marker_5fc8220c313f507497ae15caf13235de = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_abeb3c71a2910f87ea2cd3e340e04504 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e2d67230254b8365095279612fd83f = $(`<div id="html_28e2d67230254b8365095279612fd83f" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 6 ha</div>`)[0];
+                popup_abeb3c71a2910f87ea2cd3e340e04504.setContent(html_28e2d67230254b8365095279612fd83f);
+            
+        
+
+        marker_5fc8220c313f507497ae15caf13235de.bindPopup(popup_abeb3c71a2910f87ea2cd3e340e04504)
+        ;
+
+        
+    
+    
+            var marker_6909a35669b3f11a07ad2abffe359043 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d7b809733e3035fc025fdfaf159877bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb49789c8f7ca44e44d0310d80b058d = $(`<div id="html_6bb49789c8f7ca44e44d0310d80b058d" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 6 ha</div>`)[0];
+                popup_d7b809733e3035fc025fdfaf159877bc.setContent(html_6bb49789c8f7ca44e44d0310d80b058d);
+            
+        
+
+        marker_6909a35669b3f11a07ad2abffe359043.bindPopup(popup_d7b809733e3035fc025fdfaf159877bc)
+        ;
+
+        
+    
+    
+            var marker_c3abc1e7ae62724e0ec301a446d7cbe5 = L.marker(
+                [7.5586, 93.9093],
+                {}
+            ).addTo(marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30);
+        
+    
+        var popup_d4cb6708142646f18702456f213911b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5c7194924b5233a937cbbb9f68d152f = $(`<div id="html_a5c7194924b5233a937cbbb9f68d152f" style="width: 100.0%; height: 100.0%;">Year: 2023<br>Forest Loss: 5 ha</div>`)[0];
+                popup_d4cb6708142646f18702456f213911b0.setContent(html_a5c7194924b5233a937cbbb9f68d152f);
+            
+        
+
+        marker_c3abc1e7ae62724e0ec301a446d7cbe5.bindPopup(popup_d4cb6708142646f18702456f213911b0)
+        ;
+
+        
+    
+    
+            marker_cluster_dbc6f9cc2bd42fe7ee7cf376fcdfbe30.addTo(map_2962b9f038bcd0cb9c0e87959561e1bb);
+        
+</script>
+</html>
